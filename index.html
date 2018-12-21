@@ -1,0 +1,176 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <title>Ian Ramzy</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Ian Ramzy">
+    <meta property="og:description"
+          content="I'm a designer based in Kitchener Waterloo area. I spent my summer in San Francisco, as a design intern at OnboardIQ. I love designing and developing exciting projects. I spend most of my time with people I love, learning, or hustling to launch my next project.">
+    <meta property="og:url" content="http://jaymo.io">        <!--fix when url is availiable-->
+    <meta property="og:image" content="assets/preview.png">
+    <link rel="stylesheet" href="main.css">
+    <!-- Typekit -->
+    <script src="https://use.typekit.net/cxa4izu.js"></script>
+    <script>try {
+        Typekit.load({async: true});
+    } catch (e) {
+    }
+    </script>
+</head>
+<body>
+<div class="load"></div>
+
+<nav class="navigation sidr top" id="sidr">
+    <div class="container vertical-center">
+        <ul>
+            <li><a href="#intro" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav> <!--fix nav bar-->
+
+<a class="hamburger hamburger--squeeze js-menu">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+</a>
+
+<section class="intro" id="intro">
+    <div class="container vertical-center">
+        <h1><span>I'</span><span>m</span></h1>
+        <h1><span>I</span><span>a</span><span>n</span></h1>
+        <h1>
+            <span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>
+        </h1>
+        <h1>
+            <span>&</span><span>T</span><span>i</span><span>n</span><span>k</span><span>e</span><span>r</span><span>e</span><span>r</span>
+        </h1>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <header>
+        <h2 class="header" id="header-about">About</h2>
+    </header>
+    <div class="container">
+        <div class="content vertical-center">
+            <h2>Hacking Excites Me</h2>
+            <p>I'm a designer based in Waterloo. I spent my summer in San Francisco, as a design
+                intern at OnboardIQ. I love designing and developing exciting projects. I spend most of my time with
+                people I love, learning, or hustling to launch my next project.</p>
+            <a href="mailto:ianramzy@gmail.com?subject=I%20Have%20A%20Problem"><p>Looking for a developer?</p></a>
+        </div>
+        <img class="hover" src="assets/portraits/lighterpink.jpg">
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    <header>
+        <h2 class="header" id="header-projects">Projects</h2>
+    </header>
+    <div class="container">
+        <ul class="filter">
+            <li class="active" id="filter-all" onclick="loadProjects('all')">All</li>
+            <li id="filter-design" onclick="loadProjects('design')">Design</li>
+            <li id="filter-dev" onclick="loadProjects('dev')">Dev</li>
+            <li id="filter-hackathon" onclick="loadProjects('hackathon')">Hackathon</li>
+        </ul>
+        <div class="js-project--container">
+            <div class="project p-dark" id="p-onboardiq">
+                <a class="overlay" href="https://onboardiq.com/" target="_blank">
+                    <div class="content vertical-center">
+                        <h4>Design Intern</h4>
+                        <h1>OnboardIQ</h1>
+                        <p>I joined OnboardIQ as a design intern, and I worked on various types of design projects based
+                            on priority and need. penis</p>
+                        <button>Explore <span class="arrow"></span></button>
+                    </div>
+                </a>
+            </div>
+            <div class="project p-light" id="p-aftershockstocks">
+                <a class="overlay" href="https://media.giphy.com/media/SggILpMXO7Xt6/source.gif" target="_blank">
+                    <div class="content vertical-center">
+                        <h4>Developer</h4>
+                        <h1>AfterShockStocks</h1>
+                        <p>Interactive stock screener and portfolio analyzer</p>
+                        <button>Explore <span class="arrow"></span></button>
+                    </div>
+                </a>
+            </div>
+            <div class="project p-light" id="p-infuture">
+                <a class="overlay" href="http://infuture.io/" target="_blank">
+                    <div class="content vertical-center">
+                        <h4>Director</h4>
+                        <h1>InFuture</h1>
+                        <p>I'm currently organizing a high school hackathon to take place in New York City with the
+                            mission to inspire the high school hacking community.</p>
+                        <button>Explore <span class="arrow"></span></button>
+                    </div>
+                </a>
+            </div>
+            <div class="project p-light" id="p-300ui">
+                <a class="overlay" href="http://300ui.jaymo.io/" target="_blank">
+                    <div class="content vertical-center">
+                        <h4>Design &amp; Development</h4>
+                        <h1>300 UI</h1>
+                        <p>I started a journey to design a single user interface every day for 300 days. I ended up
+                            stopping at Day 100, but here's what the journey looked like.</p>
+                        <button>Explore <span class="arrow"></span></button>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <a class="load-more" onclick="loadProjects('all-more')">Load More</a>
+        <h4 class="more-work">To see all my work and experiences, check out my
+            <a href="https://github.com/ianramzy" target="_blank">GitHub</a>
+            or <a href="https://www.linkedin.com/in/ianramzy" target="_blank">LinkedIn</a></h4>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <header><h2 class="header" id="header-contact">Contact</h2></header>
+    <h3>I'd love to hear from you! Feel free to <a href="mailto:ianramzy@gmail.com">drop me a line</a>.</h3>
+</section>
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="js/sidr.js"></script>
+<script src="js/main.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/projects.js"></script>
+<script>setTimeout(function () {
+    $('.load').css('display', 'none');
+}, 3000);
+</script>
+</body>
+</html>
+
+
+<!--todo Import my projects-->
+<!--todo Replace text-->
+
+<!--todo My-project page
+    1. Inspiration
+    2. what it does (Video/gif/image in screely) (try it here / setup instructions)
+    3. how i built it
+    4. Challenges
+    5. Future ideas and whats next
+    6. Try the project out? Send me some ideas or feedback?
+-->
