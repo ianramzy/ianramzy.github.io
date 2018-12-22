@@ -10,13 +10,13 @@ var projectTickeriQ =
 	    '</a>' +
 	'</div>';
 
-var projectInFuture =
-	'<div class="project p-light" id="p-infuture">' +
-	    '<a class="overlay" href="http://infuture.io/" target="_blank">' +
+var projectBubblesortDemonstration =
+	'<div class="project p-dark" id="p-BubblesortDemonstration">' +
+	    '<a class="overlay" href="https://ianramzy.github.io/projectPages/BubblesortDemonstration.html" target="_blank">' +
 	        '<div class="content vertical-center">' +
-	            '<h4>Director</h4>' +
-	            '<h1>InFuture</h1>' +
-	            '<p>I\'m currently organizing a high school hackathon to take place in New York City with the mission to inspire the high school hacking community.</p>' +
+	            '<h4>Developer</h4>' +
+	            '<h1>Bubblesort Demonstration</h1>' +
+	            '<p>A simple BlueJ Applet that visualizes the sorting algorithm bubblesort.</p>' +
 	            '<button>Explore <span class="arrow"></span></button>' +
 	        '</div>' +
 	    '</a>' +
@@ -85,7 +85,7 @@ var projectSearch =
 
 var featured = [  //order when clicked on matters
 	projectTickeriQ,
-	projectInFuture,
+	projectBubblesortDemonstration,
 	project300UI,
     RecursiveTrees
 ];
@@ -97,7 +97,7 @@ var all = [
 
 var design = [
 	projectTickeriQ,
-	projectInFuture,
+	projectBubblesortDemonstration,
 	project300UI,
 ];
 
