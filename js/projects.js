@@ -22,13 +22,13 @@ var projectInFuture =
 	    '</a>' +
 	'</div>';
 
-var projectAfterShockStocks =
-    '<div class="project p-light" id="p-aftershockstocks">' +
-        '<a class="overlay" href="https://media.giphy.com/media/SggILpMXO7Xt6/source.gif" target="_blank">' +
+var RecursiveTrees =
+    '<div class="project p-light" id="p-RecursiveTrees">' +
+        '<a class="overlay" href="https://ianramzy.github.io/projectPages/RecursiveTrees.html" target="_blank">' +
             '<div class="content vertical-center">' +
                 '<h4>Developer</h4>' +
-                '<h1>AfterShockStocks</h1>' +
-                '<p>Interactive stock screener and portfolio analyzer</p>' +
+                '<h1>Recursive Trees</h1>' +
+                '<p>Generate and experiment with beautifully rendered trees generated recursively in Java</p>' +
                 '<button>Explore <span class="arrow"></span></button>' +
              '</div>' +
         '</a>' +
@@ -87,7 +87,7 @@ var featured = [  //order when clicked on matters
 	projectTickeriQ,
 	projectInFuture,
 	project300UI,
-    projectAfterShockStocks
+    RecursiveTrees
 ];
 
 var all = [
