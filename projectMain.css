@@ -94,6 +94,8 @@ th {
 
 img {
     max-width: 100%;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    box-shadow: 0 4.375em 7.5em rgba(0, 0, 0, 0.33);
 }
 
 header {
@@ -265,17 +267,17 @@ footer {
     box-sizing: border-box;
 }
 
-/* Position the image container (needed to position the left and right arrows) */
+ /*Position the image container (needed to position the left and right arrows) */
 .container {
     position: relative;
 }
 
-/* Hide the images by default */
+ /*Hide the images by default */
 .mySlides {
     display: none;
 }
 
-/* Next & previous buttons */
+ /*Next & previous buttons */
 .prev,
 .next {
     cursor: pointer;
@@ -292,25 +294,27 @@ footer {
     -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
-.next {
-    top: -15vw;
-    position: relative;
-    right: -45vw;
-    /*border-radius: 3px 0 0 3px;*/
-}
-
-.prev {
-    top: -15vw;
-    position: relative;
-    right: 5vw;
-    /*border-radius: 3px 3px 3px 3px;*/
-}
-
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+/*Position the "next button" to the right */
+.next {
+    top: -15vw;
+    position: relative;
+    right: -43vw;
+    /*border-radius: 3px 0 0 3px;*/
+}
+
+.prev {
+    top: -15vw;
+    position: relative;
+    right: 3vw;
+    /*border-radius: 3px 3px 3px 3px;*/
+}
 /*Gallery*/
+
+/*todo fix arrow alignment*/
+/*todo fix share button shadows*/

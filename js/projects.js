@@ -1,10 +1,10 @@
-var projectOnboardIQ =
-	'<div class="project p-dark" id="p-onboardiq">' +
-	    '<a class="overlay" href="https://onboardiq.com/" target="_blank">' +
+var projectTickeriQ =
+	'<div class="project p-dark" id="p-Ticker-iQ">' +
+	    '<a class="overlay" href="projectPages/tickeriq/Ticker-iQ.html" target="_blank">' +
 	        '<div class="content vertical-center">' +
-	            '<h4>Design Intern</h4>' +
-	            '<h1>OnboardIQ</h1>' +
-	            '<p>I joined OnboardIQ as a design intern, and I worked on various types of design projects based on priority and need.</p>' +
+	            '<h4>Developer</h4>' +
+	            '<h1>Ticker-iQ</h1>' +
+	            '<p> Ticker-iQ lets users screen stocks, view financial history, key metrics, and manage portfolio assets and holdings all in real time.</p>' +
 	            '<button>Explore <span class="arrow"></span></button>' +
 	        '</div>' +
 	    '</a>' +
@@ -84,7 +84,7 @@ var projectSearch =
 	'</div>';
 
 var featured = [  //order when clicked on matters
-	projectOnboardIQ,
+	projectTickeriQ,
 	projectInFuture,
 	project300UI,
     projectAfterShockStocks
@@ -96,7 +96,7 @@ var all = [
 ];
 
 var design = [
-	projectOnboardIQ,
+	projectTickeriQ,
 	projectInFuture,
 	project300UI,
 ];
@@ -115,5 +115,4 @@ var hackathon = [
 
 // projects.js
 // index
-// projects.scss
 // main.css

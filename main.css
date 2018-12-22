@@ -915,6 +915,7 @@ a {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), transparent);
 }
 
+
 @media screen and (max-width: 61.625em) {
     .p-light .overlay {
         background-color: rgba(0, 0, 0, 0.25);
@@ -923,8 +924,8 @@ a {
     }
 }
 
-#p-onboardiq {
-    background: url("res/projects/onboardiq.png") no-repeat center center;
+#p-Ticker-iQ {
+    background: url("res/projects/Ticker-iQ/Ticker-iQ1.gif") no-repeat center center;
     background-size: cover;
 }
 

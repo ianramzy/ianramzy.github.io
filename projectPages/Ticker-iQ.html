@@ -1,0 +1,230 @@
+<!--done replace projectname-->
+<!--done replace projectsummary  (keep brief)-->
+<!--done replace https://github.com/ianramzy/Ticker-iQ (no slash at end)-->
+<!--done replace projecturl -->
+<!--done import 2-3 screely/images/gifs into gallery-->
+<!--done change firstimg-->
+<!--done try it out instructions-->
+<!--done write inspiration-->
+<!--done write what it does-->
+<!--done write how its built-->
+<!--done write challenges-->
+<!--done write future ideas-->
+<!--todo link to main site...-->
+<!--done add readme to project github to look at projecturl for more info-->
+
+<!doctype html>
+<html>
+<head>
+    <title>Ticker-iQ - Ian Ramzy</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="../res/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../res/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../res/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../res/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../res/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../res/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../res/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../res/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../res/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../res/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../res/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../res/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../res/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Ticker-iQ"/>
+    <meta property="og:description"
+          content="Ticker-iQ lets users screen stocks, view financial history, key metrics, and manage portfolio assets and holdings all in real time."/>
+    <meta property="og:url" content="https://ianramzy.github.io/projectPages/tickeriq/Ticker-iQ.html"/>
+    <meta property="og:image" content="Ticker-iQres/Ticker-iQ1.png"/>
+    <link rel="stylesheet" href="../projectMain.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h1>Ticker-iQ</h1>
+        <p>Ticker-iQ lets users screen stocks, view financial history,
+            key metrics, and manage portfolio assets and holdings all in real time.</p>
+        <p class="view"><a href="https://github.com/ianramzy/Ticker-iQ">View the Project on GitHub
+        </a></p>
+        <ul>
+            <li><a href="https://github.com/ianramzy/Ticker-iQ/zipball/master">Download <strong>ZIP File</strong></a>
+            </li>
+            <li><a href="https://github.com/ianramzy/Ticker-iQ/tarball/master">Download <strong>TAR Ball</strong></a>
+            </li>
+            <li><a href="https://github.com/ianramzy/Ticker-iQ">Fork On <strong>GitHub</strong></a></li>
+        </ul>
+
+    </header>
+    <section>
+        <h2>Try it out!</h2>
+        <details>
+            <p>
+                <summary>Click this for installation and usage instructions.</summary>
+            <p>
+                <em>Instructions</em>
+            </p>
+            <ol>
+                <li>
+                    <p>Download or clone the project</p>
+                </li>
+                <li>
+                    <p>Import the project into your IDE of choice and setup the SDK as 1.8. Depending on you installation you may need to install JavaFX separately. (Note: it may work with other versions of Java, but is untested)</p>
+                    <!--<pre><code>pip install mypackage &#45;&#45;user</code></pre>-->
+                </li>
+                <li>
+                    <p>Run the program from the <code>main.java</code> class and from there you should be up and running! Be sure to also be connected to the internet so you can download new stock data.</p>
+                </li>
+            </ol>
+            </p>
+        </details>
+
+        <h2>Gallery</h2>
+        <div class="container">
+            <div class="mySlides">
+                <img src="../res/projects/Ticker-iQ/Ticker-iQ1.gif" style="width:45vw">
+            </div>
+            <div class="mySlides">
+                <img src="../res/projects/Ticker-iQ/Ticker-iQ2.gif" style="width:45vw">
+            </div>
+            <div class="mySlides">
+                <img src="../res/projects/Ticker-iQ/Ticker-iQ3.gif" style="width:45vw">
+            </div>
+            <div class="mySlides">
+                <img src="../res/projects/Ticker-iQ/Ticker-iQ1.png" style="width:45vw">
+            </div>
+            <div class="mySlides">
+                <img src="../res/projects/Ticker-iQ/Ticker-iQ2.png" style="width:45vw">
+            </div>
+            <div class="mySlides">
+                <img src="../res/projects/Ticker-iQ/Ticker-iQ3.png" style="width:45vw">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <h2>Inspiration</h2>
+        <p>I saw websites like tradingview.com and other similar projects, and I wanted a stock screener that I could
+            run on my desktop while I traded. That was how Ticker-iQ was born. A desktop application that could process
+        all of the basic information needed for swing trading as well as help me manage my portfolio.</p>
+
+        <h2>What it does</h2>
+        <p>Ticker-iQ presents various stock data in a visually pleasing way, it allows users to see daily trading
+        numbers, price history, browse current news with the in-built browser, and setup their portfolio
+            automatically calculating things like profit/loss per share and in total.</p>
+
+        <h2>How it's built</h2>
+        <p>This program is created solely in JavaFX and all data is downloaded in realtime from nasdaq.com and then
+        graphed visually with JavaFX. The portfolio manager saves information locally to a text file when a user inputs
+        various data for computation.</p>
+
+        <h2>Challenges</h2>
+        <p>The main challange I ran into was where to get the data. Many sources would either require too many steps
+        to get the data making automation next to impossible. Many sources are also are paid, making them not viable for my
+            student budget. And lastly many websites had scripts in place to prtect against automated requests. </p>
+
+        <h2>Future ideas and whats next</h2>
+        <p>In the future I would like port this project to Android for mobile use. Aswell in the future I will start using the data I'm
+            collecting to add technical indicators to graphs as an option.</p>
+
+        <h2>Try the project out? Send me some ideas or feedback!</h2>
+        <a href="mailto:ianramzy@gmail.com?subject=Feedback for Ticker-iQ&amp;Body=I%20think%20you%20should%20implement%20X.%20And%20it%20also%20breaks%20when%20I%20do%20Y.%20Also%20I%20just%20wanted%20to%20say%20hi!">
+            <p>Share an idea!</p></a>
+    </section>
+    <footer>
+        <p>Project by <a href="https://ianramzy.github.io/">Ian Ramzy</a> Share it!</p>
+        <style type="text/css">
+            #share-buttons img {
+                width: 40px;
+                padding: 5px;
+                border: 0;
+                display: inline;
+            }
+        </style>
+        <div id="share-buttons">
+            <!-- Email -->
+            <a href="mailto:?Check out Ticker-iQ by Ian Ramzy&amp;Body=Check%20this%20cool%20project%20out!%20https://ianramzy.github.io/projectPages/tickeriq/Ticker-iQ.html">
+                <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email"/>
+            </a>
+            <!-- Facebook -->
+            <a href="http://www.facebook.com/sharer.php?u=https://ianramzy.github.io/projectPages/tickeriq/Ticker-iQ.html" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook"/>
+            </a>
+            <!-- LinkedIn -->
+            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://ianramzy.github.io/projectPages/tickeriq/Ticker-iQ.html" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn"/>
+            </a>
+            <!-- Twitter -->
+            <a href="https://twitter.com/share?url=https://ianramzy.github.io/projectPages/tickeriq/Ticker-iQ.html&amp;text=Check%20this%20cool%20project%20out!%20https://ianramzy.github.io/projectPages/tickeriq/Ticker-iQ.html"
+               target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter"/>
+            </a>
+            <!-- Reddit -->
+            <a href="http://reddit.com/submit?url=https://ianramzy.github.io/projectPages/tickeriq/Ticker-iQ.html&amp;title=Check this cool project out!" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit"/>
+            </a>
+        </div>
+    </footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+</script>
+<script>
+    var metas = document.getElementsByTagName('meta');
+    var i;
+    if (navigator.userAgent.match(/iPhone/i)) {
+        for (i = 0; i < metas.length; i++) {
+            if (metas[i].name == "viewport") {
+                metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+            }
+        }
+        document.addEventListener("gesturestart", gestureStart, false);
+    }
+
+    function gestureStart() {
+        for (i = 0; i < metas.length; i++) {
+            if (metas[i].name == "viewport") {
+                metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+            }
+        }
+    }
+</script>
+<script>setTimeout(function () {
+    $('.load').css('display', 'none');
+}, 3000);</script>
+</body>
+</html>
