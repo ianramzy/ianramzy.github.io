@@ -882,7 +882,7 @@ a {
 }
 
 .p-dark span.arrow {
-    background: url("assets/arrows/arrow-white.svg") no-repeat -1.25em center;
+    background: url("res/arrows/arrow-white.svg") no-repeat -1.25em center;
     background-size: cover;
 }
 
@@ -905,7 +905,7 @@ a {
 }
 
 .p-light span.arrow {
-    background: url("assets/arrows/arrow.svg") no-repeat -1.25em center;
+    background: url("res/arrows/arrow.svg") no-repeat -1.25em center;
     background-size: cover;
 }
 
@@ -924,37 +924,37 @@ a {
 }
 
 #p-onboardiq {
-    background: url("assets/projects/onboardiq.png") no-repeat center center;
+    background: url("res/projects/onboardiq.png") no-repeat center center;
     background-size: cover;
 }
 
 #p-infuture {
-    background: url("assets/projects/infuture.png") no-repeat center center;
+    background: url("res/projects/infuture.png") no-repeat center center;
     background-size: cover;
 }
 
 #p-flowww {
-    background: url("assets/projects/flowww.png") no-repeat center top;
+    background: url("res/projects/flowww.png") no-repeat center top;
     background-size: cover;
 }
 
 #p-300ui {
-    background: url("assets/projects/300ui.png") no-repeat center center;
+    background: url("res/projects/300ui.png") no-repeat center center;
     background-size: cover;
 }
 
 #p-6502 {
-    background: url("assets/projects/6502.png") no-repeat center center;
+    background: url("res/projects/6502.png") no-repeat center center;
     background-size: cover;
 }
 
 #p-search {
-    background: url("assets/projects/search.png") no-repeat center center;
+    background: url("res/projects/search.png") no-repeat center center;
     background-size: cover;
 }
 
 #p-aftershockstocks {
-    background: url("assets/projects/finance_small.jpg") no-repeat center center;
+    background: url("res/projects/finance_small.jpg") no-repeat center center;
     background-size: cover;
 }
 
