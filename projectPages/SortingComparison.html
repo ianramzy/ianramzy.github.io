@@ -1,22 +1,7 @@
-<!--todo replace projectname-->
-<!--todo replace projectsummary  (keep brief)-->
-<!--todo replace githuburl (no slash at end)-->
-<!--todo replace projecturl -->
-<!--todo try it out instructions + link to try-->
-<!--todo import 2-3 screely/images/gifs into gallery-->
-<!--todo change firstimg to firstgif or whatever-->
-<!--todo write inspiration-->
-<!--todo write what it does-->
-<!--todo write how its built-->
-<!--todo write challenges-->
-<!--todo write future ideas-->
-<!--todo link to main site...-->
-<!--todo add readme to project github to look at projecturl for more info-->
-
 <!doctype html>
 <html>
 <head>
-    <title>projectname - Ian Ramzy</title>
+    <title>Sorting Comparison - Ian Ramzy</title>
     <link rel="apple-touch-icon" sizes="57x57" href="../res/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../res/favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../res/favicons/apple-icon-72x72.png">
@@ -33,24 +18,27 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <!-- Open Graph data -->
-    <meta property="og:title" content="projectname"/>
-    <meta property="og:description" content="projectsummary"/>
-    <meta property="og:url" content="projecturl"/>
-    <meta property="og:image" content="firstimg"/>
+    <meta property="og:title" content="Sorting Comparison"/>
+    <meta property="og:description"
+          content="Java program that visualizes the time complexity for the major sorting algorithms given randomized data."/>
+    <meta property="og:url" content="https://ianramzy.github.io/projectPages/SortingComparison.html"/>
+    <meta property="og:image" content="../res/projects/SortingComparison/SortingComparison1.png"/>
     <link rel="stylesheet" href="../project.css">
 </head>
 <body>
 <div class="wrapper">
 
     <header>
-        <h1>projectname</h1>
-        <p>projectsummary</p>
-        <p class="view"><a href="githuburl">View the Project on GitHub
+        <h1>Sorting Comparison</h1>
+        <p>Java program that visualizes the time complexity for the major sorting algorithms given randomized data.</p>
+        <p class="view"><a href="https://github.com/ianramzy/SortingComparison">View the Project on GitHub
         </a></p>
         <ul>
-            <li><a href="githuburl/zipball/master">Download <strong>ZIP File</strong></a></li>
-            <li><a href="githuburl/tarball/master">Download <strong>TAR Ball</strong></a></li>
-            <li><a href="githuburl">Fork On <strong>GitHub</strong></a></li>
+            <li><a href="https://github.com/ianramzy/SortingComparison/zipball/master">Download <strong>ZIP
+                File</strong></a></li>
+            <li><a href="https://github.com/ianramzy/SortingComparison/tarball/master">Download <strong>TAR
+                Ball</strong></a></li>
+            <li><a href="https://github.com/ianramzy/SortingComparison">Fork On <strong>GitHub</strong></a></li>
         </ul>
     </header>
 
@@ -59,58 +47,45 @@
         <details>
             <p>
                 <summary>Click this for installation and usage instructions.</summary>
-            <p><em>Instructions <a href="projectlink.com" target="_blank">or a simple
-                link</a>.</em>
+            <p>
+                <em>Instructions</em>
             </p>
             <ol>
                 <li>
-                    <p>Clone project on github</p>
-                    <pre><code>['a', 'b'].map { |x| x.uppercase }</code></pre>
+                    <p>Download or clone the project</p>
                 </li>
                 <li>
-                    <p>In python terminal install package mypackage</p>
-                    <pre><code>pip install mypackage --user</code></pre>
+                    <p>Import the project into your IDE of choice and setup the SDK as 1.8 (Note: it may work with other
+                        versions of Java, but is untested)</p>
+                </li>
+                <li>
+                    <p>Run the program from the <code>GraphSortComparison.java</code> class and from there you should be
+                        up and running!
+                    </p>
                 </li>
             </ol>
             </p>
         </details>
 
         <h2>Gallery</h2>
-        <div class="container">
-            <div class="mySlides">
-                <img src="../res/projects/projectname/actual.gif" style="width:45vw">
-            </div>
-            <div class="mySlides">
-                <img src="../res/projects/projectname/testimage.png" style="width:45vw">
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
+        <img src="../res/projects/SortingComparison/SortingComparison1.png" style="width:45vw">
 
         <h2>Inspiration</h2>
-        <p>I saw the thing and I was inspired to make this awesome project!</p>
+        <p>I created this when I was first learning about time complexity and wanted to see how various algorithms
+            performed when the number of items sort was increased.</p>
 
         <h2>What it does</h2>
-        <p>It is super it amazing it does X and Y. See the gallery</p>
-
-        <h2>How it's built</h2>
-        <p>I used X and Y and this framework implemented in. It works by calculating the mass of the sun</p>
-
-        <h2>Challenges</h2>
-        <p>There were x main challenges I ran into</p>
-        <dl>
-            <dt>First challenge</dt>
-            <dd>The problem was x when y happened, i worked around it by implementing y</dd>
-            <dt>Second challenge</dt>
-            <dd>The problem was x when y happened, i worked around it by implementing y</dd>
-        </dl>
+        <p>It generates a new random seed each time and creates an unsorted list of 2000, 4000, 8000, and 16000 items.
+            It then runs them through: QuickSort, MergeSort, InsertionSort, BubbleSort, BetterBubbleSort and
+            SelectionSort
+            timing how long each one takes and graphing it.</p>
 
         <h2>Future ideas and whats next</h2>
-        <p>In the future I would like to make the project do X and Y. This would allow me to be even more versatile!
-            I also know about problem theta</p>
+        <p>In the future I would like to add even more sorting algorithms and perhaps add a feature where users could
+            input how many items to be sorted with a slider and then see the comparison.</p>
 
         <h2>Try the project out? Send me some ideas or feedback!</h2>
-        <a href="mailto:ianramzy@gmail.com?subject=Feedback for projectname&amp;Body=I%20think%20you%20should%20implement%20X.%20And%20it%20also%20breaks%20when%20I%20do%20Y.%20Also%20I%20just%20wanted%20to%20say%20hi!">
+        <a href="mailto:ianramzy@gmail.com?subject=Feedback for Sorting Comparison&amp;Body=I%20think%20you%20should%20implement%20X.%20And%20it%20also%20breaks%20when%20I%20do%20Y.%20Also%20I%20just%20wanted%20to%20say%20hi!">
             <p>Share an idea!</p></a>
     </section>
     <footer>
@@ -126,24 +101,27 @@
         </style>
         <div id="share-buttons">
             <!-- Email -->
-            <a href="mailto:?Check out projectname by Ian Ramzy&amp;Body=Check%20this%20cool%20project%20out!%20projecturl">
+            <a href="mailto:?Check out Sorting Comparison by Ian Ramzy&amp;Body=Check%20this%20cool%20project%20out!%20https://ianramzy.github.io/projectPages/SortingComparison.html">
                 <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email"/>
             </a>
             <!-- Facebook -->
-            <a href="http://www.facebook.com/sharer.php?u=projecturl" target="_blank">
+            <a href="http://www.facebook.com/sharer.php?u=https://ianramzy.github.io/projectPages/SortingComparison.html"
+               target="_blank">
                 <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook"/>
             </a>
             <!-- LinkedIn -->
-            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=projecturl" target="_blank">
+            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://ianramzy.github.io/projectPages/SortingComparison.html"
+               target="_blank">
                 <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn"/>
             </a>
             <!-- Twitter -->
-            <a href="https://twitter.com/share?url=projecturl&amp;text=Check%20this%20cool%20project%20out!%20projecturl"
+            <a href="https://twitter.com/share?url=https://ianramzy.github.io/projectPages/SortingComparison.html&amp;text=Check%20this%20cool%20project%20out!%20https://ianramzy.github.io/projectPages/SortingComparison.html"
                target="_blank">
                 <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter"/>
             </a>
             <!-- Reddit -->
-            <a href="http://reddit.com/submit?url=projecturl&amp;title=Check this cool project out!" target="_blank">
+            <a href="http://reddit.com/submit?url=https://ianramzy.github.io/projectPages/SortingComparison.html&amp;title=Check this cool project out!"
+               target="_blank">
                 <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit"/>
             </a>
         </div>

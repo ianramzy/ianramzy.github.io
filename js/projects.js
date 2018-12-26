@@ -70,6 +70,18 @@ var ColourMatch =
     '</a>' +
     '</div>';
 
+var SortingComparison =
+    '<div class="project p-light" id="p-TestProject">' +
+    '<a class="overlay" href="https://ianramzy.github.io/projectPages/SortingComparison.html" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Sorting Comparison</h1>' +
+    '<p>Java program that visualizes the time complexity for the major sorting algorithms given randomized data</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
 var TestProject =
     '<div class="project p-light" id="p-TestProject">' +
     '<a class="overlay" href="https://ianramzy.github.io/projectPages/projectname.html" target="_blank">' +
@@ -102,6 +114,7 @@ var design = [
 
 var dev = [
     projectPixelShooter,
+    SortingComparison
 
 ];
 

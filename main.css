@@ -953,6 +953,11 @@ a {
     background-size: cover;
 }
 
+#p-SortingComparison {
+    background: url("res/projects/SortingComparison/SortingComparison1.png") no-repeat center center;
+    background-size: cover;
+}
+
 #p-TestProject {
     background: url("...") no-repeat center center;
     background-size: cover;
