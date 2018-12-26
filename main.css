@@ -915,7 +915,6 @@ a {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), transparent);
 }
 
-
 @media screen and (max-width: 61.625em) {
     .p-light .overlay {
         background-color: rgba(0, 0, 0, 0.25);
@@ -934,23 +933,8 @@ a {
     background-size: cover;
 }
 
-#p-flowww {
-    background: url("res/projects/flowww.png") no-repeat center top;
-    background-size: cover;
-}
-
 #p-PixelShooter {
     background: url("res/projects/PixelShooter/PixelShooter1.png") no-repeat center center;
-    background-size: cover;
-}
-
-#p-6502 {
-    background: url("res/projects/garbage/6502.png") no-repeat center center;
-    background-size: cover;
-}
-
-#p-search {
-    background: url("res/projects/garbage/search.png") no-repeat center center;
     background-size: cover;
 }
 
@@ -963,6 +947,12 @@ a {
     background: url("res/projects/TronPong/TronPong1.gif") no-repeat center center;
     background-size: cover;
 }
+
+#p-ColourMatch {
+    background: url("res/projects/ColourMatch/ColourMatch1.png") no-repeat center center;
+    background-size: cover;
+}
+
 #p-TestProject {
     background: url("...") no-repeat center center;
     background-size: cover;
