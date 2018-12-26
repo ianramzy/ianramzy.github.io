@@ -954,14 +954,20 @@ a {
 }
 
 #p-SortingComparison {
-    background: url("res/projects/SortingComparison/SortingComparison1.png") no-repeat center center;
+    background: url("res/projects/SortingComparison/SortingComparison2.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#p-KochCurve {
+    background: url("res/projects/KochCurve/KochCurve4.png") no-repeat center center;
     background-size: cover;
 }
 
 #p-TestProject {
-    background: url("...") no-repeat center center;
-    background-size: cover;
+background: url("...") no-repeat center center;
+background-size: cover;
 }
+
 
 @keyframes fadeInUp {
     from {

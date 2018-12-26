@@ -71,7 +71,7 @@ var ColourMatch =
     '</div>';
 
 var SortingComparison =
-    '<div class="project p-light" id="p-TestProject">' +
+    '<div class="project p-light" id="p-SortingComparison">' +
     '<a class="overlay" href="https://ianramzy.github.io/projectPages/SortingComparison.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
@@ -89,6 +89,18 @@ var TestProject =
     '<h4>Design &amp; Development</h4>' +
     '<h1>projectname</h1>' +
     '<p>projectsummary</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
+var KochCurve =
+    '<div class="project p-light" id="p-KochCurve">' +
+    '<a class="overlay" href="https://ianramzy.github.io/projectPages/KochCurve.html" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Koch Curve</h1>' +
+    '<p>BlueJ applet that renders the famous Koch Curve to a user specified iteration.</p>' +
     '<button>Explore <span class="arrow"></span></button>' +
     '</div>' +
     '</a>' +
@@ -114,7 +126,8 @@ var design = [
 
 var dev = [
     projectPixelShooter,
-    SortingComparison
+    SortingComparison,
+    KochCurve
 
 ];
 
