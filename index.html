@@ -87,10 +87,12 @@
     <div class="container">
         <ul class="filter">
             <li class="active" id="filter-all" onclick="loadProjects('all')">All</li>
-            <li id="filter-design" onclick="loadProjects('design')">Design</li>
+            <!--<li id="filter-design" onclick="loadProjects('design')">Design</li>-->
             <li id="filter-dev" onclick="loadProjects('dev')">Dev</li>
             <li id="filter-hackathon" onclick="loadProjects('hackathon')">Hackathon</li>
+            <li id="filter-game" onclick="loadProjects('game')">Game</li>
         </ul>
+
         <div class="js-project--container">
             <div class="project p-dark" id="p-Ticker-iQ">
                 <a class="overlay" href="projectPages/Ticker-iQ.html" target="_blank">
@@ -103,6 +105,7 @@
                     </div>
                 </a>
             </div>
+
             <div class="project p-light" id="p-RecursiveTrees">
                 <a class="overlay" href="https://ianramzy.github.io/projectPages/RecursiveTrees.html" target="_blank">
                     <div class="content vertical-center">
@@ -113,6 +116,7 @@
                     </div>
                 </a>
             </div>
+
             <div class="project p-dark" id="p-BubblesortDemonstration">
                 <a class="overlay" href="https://ianramzy.github.io/projectPages/BubblesortDemonstration.html" target="_blank">
                     <div class="content vertical-center">
@@ -123,18 +127,31 @@
                     </div>
                 </a>
             </div>
-            <!--<div class="project p-light" id="p-300ui">-->
-            <!--<a class="overlay" href="http://300ui.jaymo.io/" target="_blank">-->
-            <!--<div class="content vertical-center">-->
-            <!--<h4>Design &amp; Development</h4>-->
-            <!--<h1>300 UI</h1>-->
-            <!--<p>I started a journey to design a single user interface every day for 300 days. I ended up-->
-            <!--stopping at Day 100, but here's what the journey looked like.</p>-->
-            <!--<button>Explore <span class="arrow"></span></button>-->
-            <!--</div>-->
-            <!--</a>-->
-            <!--</div>-->
+
+            <div class="project p-light" id="p-PixelShooter">
+                <a class="overlay" href="https://ianramzy.github.io/projectPages/PixelShooter.html" target="_blank">
+                    <div class="content vertical-center">
+                        <h4>Design &amp; Development</h4>
+                        <h1>Pixel Shooter</h1>
+                        <p>A side-scrolling shooter where its you vs. the enemies!</p>
+                        <button>Explore <span class="arrow"></span></button>
+                    </div>
+                </a>
+            </div>
+
+            <div class="project p-light" id="p-TestProject">
+                <a class="overlay" href="https://ianramzy.github.io/projectPages/projectname.html" target="_blank">
+                    <div class="content vertical-center">
+                        <h4>Design &amp; Development</h4>
+                        <h1>Test Project</h1>
+                        <p>projectsummary</p>
+                        <button>Explore <span class="arrow"></span></button>
+                    </div>
+                </a>
+            </div>
+
         </div>
+
         <a class="load-more" onclick="loadProjects('all-more')">Load More</a>
         <h4 class="more-work">To see all my work and experiences, check out my
             <a href="https://github.com/ianramzy" target="_blank">GitHub</a>
@@ -158,7 +175,3 @@
 </script>
 </body>
 </html>
-
-
-<!--todo Import my projects-->
-<!--todo Replace text-->

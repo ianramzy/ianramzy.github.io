@@ -18,16 +18,22 @@ function loadProjects(loadTarget) {
 			break;
 
 		case 'design':
-			renderProjects(design);
+            console.log("inside design")
+            renderProjects(design);
 			break;
 
 		case 'dev':
-			renderProjects(dev);
+            renderProjects(dev);
 			break;
 
 		case 'hackathon':
-			renderProjects(hackathon);
+            renderProjects(hackathon);
 			break;
+
+        case 'game':
+            console.log("inside game")
+            renderProjects(game);
+            break;
 	}
 
 	if (isLoaded) {

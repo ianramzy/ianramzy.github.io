@@ -925,7 +925,7 @@ a {
 }
 
 #p-Ticker-iQ {
-    background: url("res/projects/Ticker-iQ/Ticker-iQ1.gif") no-repeat center center;
+    background: url("res/projects/Ticker-iQ/Ticker-iQ3.gif") no-repeat center center;
     background-size: cover;
 }
 
@@ -939,8 +939,8 @@ a {
     background-size: cover;
 }
 
-#p-300ui {
-    background: url("res/projects/garbage/300ui.png") no-repeat center center;
+#p-PixelShooter {
+    background: url("res/projects/PixelShooter/PixelShooter1.png") no-repeat center center;
     background-size: cover;
 }
 
@@ -956,6 +956,15 @@ a {
 
 #p-RecursiveTrees {
     background: url("res/projects/RecursiveTrees/RecursiveTrees1.gif") no-repeat center center;
+    background-size: cover;
+}
+
+#p-TronPong {
+    background: url("res/projects/TronPong/TronPong1.gif") no-repeat center center;
+    background-size: cover;
+}
+#p-TestProject {
+    background: url("...") no-repeat center center;
     background-size: cover;
 }
 

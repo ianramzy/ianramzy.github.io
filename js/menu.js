@@ -3,13 +3,13 @@ $('.js-menu').sidr();
 var initialHamburgerPosition = $('.js-menu').position().top;
 var hamburgerPosition = $('.js-menu').position().top;
 
-$('.js-menu').click(function() {
+$('.js-menu').click(function () {
     if ($('.js-menu').hasClass('is-active')) {
         $('.js-menu').removeClass('is-active');
         $('.js-menu').removeClass('hamburger-white');
 
-        setTimeout(function() {
-        $('.hamburger').css('top', '10vh');
+        setTimeout(function () {
+            $('.hamburger').css('top', '10vh');
             $('.js-menu').removeClass('is-fixed');
         }, 500);
     }
@@ -25,7 +25,7 @@ $('.js-menu').click(function() {
 
 });
 
-$(document).scroll(function() {
+$(document).scroll(function () {
     hamburgerPosition = $('.js-menu').position().top - $(window).scrollTop();
 
     if ($('.js-menu').hasClass('is-active')) {
