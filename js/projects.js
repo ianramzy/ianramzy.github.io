@@ -109,27 +109,30 @@ var KochCurve =
 
 var featured = [  //order when clicked on matters
     projectTickeriQ,
+    RecursiveTrees,
     projectBubblesortDemonstration,
     projectPixelShooter,
-    RecursiveTrees,
+
 ];
 
 var all = [
-    projectTickeriQ,
-    projectBubblesortDemonstration,
-    RecursiveTrees,
-];
-
-var design = [
-    projectTickeriQ
-];
-
-var dev = [
-    projectPixelShooter,
     SortingComparison,
-    KochCurve
+    ColourMatch,
+    KochCurve,
+    TronPong,
 
 ];
+
+// var design = [
+//     projectTickeriQ
+// ];
+
+// var dev = [
+//     projectPixelShooter,
+//     SortingComparison,
+//     KochCurve
+//
+// ];
 
 var hackathon = [
     TestProject
@@ -140,6 +143,16 @@ var game = [
     ColourMatch,
     TronPong
 ];
+
+// Ticker-iQ
+// Branches
+// Sorting comparison
+// Bubble Sort Visualization
+// Koch Curve
+
+// Pixel Shooter
+// Pong
+// Color drop
 
 
 // projects.js
