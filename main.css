@@ -923,6 +923,15 @@ a {
     }
 }
 
+#p-StockNewsAnalysis {
+    background: url("res/projects/StockNewsAnalysis/StockNewsAnalysis0.jpg") no-repeat center center;
+    background-size: cover;
+}
+#p-Optimo {
+    background: url("res/projects/Optimo/Optimo1.gif") no-repeat center center;
+    background-size: cover;
+}
+
 #p-Ticker-iQ {
     background: url("res/projects/Ticker-iQ/Ticker-iQ3.gif") no-repeat center center;
     background-size: cover;

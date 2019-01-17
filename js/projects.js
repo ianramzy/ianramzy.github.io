@@ -1,6 +1,30 @@
+var projectStockNewsAnalysis =
+    '<div class="project p-light" id="p-StockNewsAnalysis">' +
+    '<a class="overlay" href="https://ianramzy.github.io/projectPages/StockNewsAnalysis.html" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Stock News Analysis</h1>' +
+    '<p>Web app created to help traders analyze news surrounding a company/stock powered by data scraping and machine learning</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
+var projectOptimo =
+    '<div class="project p-dark" id="p-Optimo">' +
+    '<a class="overlay" href="https://ianramzy.github.io/projectPages/Optimo.html" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Optimo</h1>' +
+    '<p> Web app to help users benchmark their eyesight (i.e. 20/20 or 20/100) by taking on online test</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
 var projectTickeriQ =
     '<div class="project p-dark" id="p-Ticker-iQ">' +
-    '<a class="overlay" href="projectPages/tickeriq/Ticker-iQ.html" target="_blank">' +
+    '<a class="overlay" href="https://ianramzy.github.io/projectPages/Ticker-iQ.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Ticker-iQ</h1>' +
@@ -108,14 +132,15 @@ var KochCurve =
 
 
 var featured = [  //order when clicked on matters
+    projectStockNewsAnalysis,
+    projectOptimo,
     projectTickeriQ,
     RecursiveTrees,
     projectBubblesortDemonstration,
-    projectPixelShooter,
-
 ];
 
 var all = [
+    projectPixelShooter,
     SortingComparison,
     ColourMatch,
     KochCurve,
@@ -135,7 +160,8 @@ var all = [
 // ];
 
 var hackathon = [
-    TestProject
+    projectStockNewsAnalysis,
+    projectOptimo
 ];
 
 var game = [
@@ -143,19 +169,3 @@ var game = [
     ColourMatch,
     TronPong
 ];
-
-// Ticker-iQ
-// Branches
-// Sorting comparison
-// Bubble Sort Visualization
-// Koch Curve
-
-// Pixel Shooter
-// Pong
-// Color drop
-
-
-// projects.js
-// index
-// main.css
-

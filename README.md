@@ -1,1 +1,1 @@
-My personal website created using X, Y, Z and can be found at: ianramzy.github.io
+My personal website: https://ianramzy.github.io/
