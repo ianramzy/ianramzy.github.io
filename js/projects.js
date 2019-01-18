@@ -76,7 +76,7 @@ var TronPong =
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Tron Pong</h1>' +
-    '<p>My personal remake of the popular game pong featuring multiple balls, a terrible Ai and way too much neon.</p>' +
+    '<p>My personal remake of the popular game pong featuring multiple balls, a terrible AI and way too much neon.</p>' +
     '<button>Explore <span class="arrow"></span></button>' +
     '</div>' +
     '</a>' +

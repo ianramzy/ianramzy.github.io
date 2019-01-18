@@ -171,6 +171,7 @@ section {
     width: 800px;
     float: right;
     padding-bottom: 50px;
+
 }
 
 hr {
@@ -188,7 +189,8 @@ footer {
     -webkit-font-smoothing: subpixel-antialiased;
 }
 
-@media print, screen and (max-width: 960px) {
+
+@media print, screen and (max-width: 1250px) {
 
     div.wrapper {
         width: auto;

@@ -90,42 +90,42 @@
         <p>Thousands of methods have been developed to predict stock performance, some taking dozens of parameters
             and using complicated calculations. However, I realized that the market is ultimately determined by supply
             and demand, which means the stock is worth as much as the investors value them. I wanted to try a more
-            qualitative approach, to use sentimental analysis on stock market news to determine stock performance.</p>
+            qualitative approach, using sentimental analysis on stock market news to determine stock performance.</p>
 
         <h2>What it does</h2>
-        <p>Given a stock ticker (i.e. AAPL) it searches NASDAQ.com for related articles and scrapes off all of the
+        <p>Given a stock ticker (i.e. AAPL) it searches NASDAQ.com for related articles and scrapes off all the
             data. It then cleans the data removing unrelated items (like headers and footers). It then breaks the text
-            into 5000 character chunks and using Azure Text Api it then analyzes all of the chunks of data. It averages
-            the results from all of the chunks and outputs a percentage, where a score like 80% would mean positive news
-            articles are being published and a score like 30% would indicate negative articles.</p>
+            into 5000 character chunks and using Azure Text Api it analyzes all the chunks of data. It averages
+            the results and outputs a percentage. I.e. the higher the rating the higher the overall sentiment of news articles,
+            100% = overwhelmingly positive, 0% = overwhelmingly negative, and 50% = neutral.</p>
 
         <h2>How it's built</h2>
-        <p>The backend is created in Flask, and data scraping is done with beautifulsoup4. Azure Text Api is used to
+        <p>The back-end is created in Flask, and data scraping is done with beautifulsoup4. Azure Text Api is used to
             provide
             analysis.</p>
 
         <h2>Challenges</h2>
-        <p>There were 2 main challenges I ran into</p>
+        <p>There were 2 main challenges I ran into:</p>
         <dl>
             <dt>Scraping Data</dt>
             <dd>My original plan was to find all of the links on Stock page on NASDAQ.com and then download the data
                 from there, but the problem was that every page would have over 100 links and only 10 of them were the
-                articles I wanted. So I had to filter all of the links but discovering a hidden attribute in all of the
+                articles I wanted. I had to filter all of the links by discovering a hidden attribute in all of the
                 articles.
             </dd>
             <dt>Slow Loading Speeds</dt>
-            <dd>The problem was when there were a lot of articles to download the file sizes could get quite large even
+            <dd>The problem was when there were a lot of articles to download, the file sizes could get quite large even
                 if the articles themselves were small (100 articles @ 2mb each = 200mb download). The solution was to
                 parse the HTML using BeautifulSoup4 before the images were loaded. This improved response time by a
-                factor of 10. So now instead of running our algorithm on 10 articles in 10 seconds, we could do 100
-                articles in the same time.
+                factor of 10. So now instead of running the algorithm on 10 articles in 10 seconds, 100
+                articles could be analyzed in the same time.
             </dd>
         </dl>
 
-        <h2>Future ideas and whats next</h2>
+        <h2>Future ideas and what's next</h2>
         <p>In the future I would like to make a new machine learning model to further improve the prediction accuracy. I
             would implement a Recursive Neural Network based off of Andrej Karpathy's research paper. I would train this
-            model on only finance related articles and by doing this I believe error could be reduced substantially and
+            model on solely finance related articles and by doing this I believe error could be reduced substantially and
             the accuracy would be unparalleled.</p>
 
         <h2>Try the project out? Send me some ideas or feedback!</h2>
