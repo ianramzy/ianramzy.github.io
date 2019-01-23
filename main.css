@@ -1024,6 +1024,34 @@ background-size: cover;
     z-index: 60;
     animation-delay: 925ms;
 }
+.project:nth-child(7) {
+    z-index: 60;
+    animation-delay: 1050ms;
+}
+.project:nth-child(8) {
+    z-index: 60;
+    animation-delay: 1175ms;
+}
+.project:nth-child(9) {
+    z-index: 60;
+    animation-delay: 1300ms;
+}
+.project:nth-child(10) {
+    z-index: 60;
+    animation-delay: 1425ms;
+}
+.project:nth-child(11) {
+    z-index: 60;
+    animation-delay: 1550ms;
+}
+.project:nth-child(12) {
+    z-index: 60;
+    animation-delay: 1675ms;
+}
+.project:nth-child(13) {
+    z-index: 60;
+    animation-delay: 1800ms;
+}
 
 button {
     width: 14.0625em;
