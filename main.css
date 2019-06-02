@@ -759,6 +759,20 @@ a {
     }
 }
 
+/*.project {*/
+    /*position: relative;*/
+    /*top: 0em;*/
+    /*width: 44%;*/
+    /*height: 27.5em;*/
+    /*margin: 2.25em 2.25em;*/
+    /*float: left;*/
+    /*padding: 0;*/
+    /*animation-name: fadeInUp;*/
+    /*animation-duration: 1s;*/
+    /*animation-fill-mode: both;*/
+    /*box-shadow: 0 4.375em 7.5em rgba(0, 0, 0, 0.33);*/
+/*}*/
+
 .project {
     position: relative;
     top: 0em;
@@ -927,6 +941,7 @@ a {
     background: url("res/projects/StockNewsAnalysis/StockNewsAnalysis0.jpg") no-repeat center center;
     background-size: cover;
 }
+
 #p-Optimo {
     background: url("res/projects/Optimo/Optimo1.gif") no-repeat center center;
     background-size: cover;
@@ -973,8 +988,8 @@ a {
 }
 
 #p-TestProject {
-background: url("...") no-repeat center center;
-background-size: cover;
+    background: url("...") no-repeat center center;
+    background-size: cover;
 }
 
 
@@ -1024,30 +1039,37 @@ background-size: cover;
     z-index: 60;
     animation-delay: 925ms;
 }
+
 .project:nth-child(7) {
     z-index: 60;
     animation-delay: 1050ms;
 }
+
 .project:nth-child(8) {
     z-index: 60;
     animation-delay: 1175ms;
 }
+
 .project:nth-child(9) {
     z-index: 60;
     animation-delay: 1300ms;
 }
+
 .project:nth-child(10) {
     z-index: 60;
     animation-delay: 1425ms;
 }
+
 .project:nth-child(11) {
     z-index: 60;
     animation-delay: 1550ms;
 }
+
 .project:nth-child(12) {
     z-index: 60;
     animation-delay: 1675ms;
 }
+
 .project:nth-child(13) {
     z-index: 60;
     animation-delay: 1800ms;
