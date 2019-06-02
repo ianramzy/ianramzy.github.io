@@ -2,7 +2,6 @@ function loadProjects(loadTarget) {
 	console.log(loadTarget);
 	$('.filter li').removeClass();
 	$('#filter-' + loadTarget).addClass('active');
-
 	var isLoaded = true;
 	switch (loadTarget) {
 		case 'all':
@@ -18,21 +17,25 @@ function loadProjects(loadTarget) {
 			break;
 
 		case 'design':
-            console.log("inside design")
-            renderProjects(design);
+			console.log("design");
+
+			renderProjects(design);
 			break;
 
 		case 'dev':
-            renderProjects(dev);
+			console.log("dev");
+			renderProjects(dev);
 			break;
 
 		case 'hackathon':
-            renderProjects(hackathon);
+			console.log("hackathon");
+
+			renderProjects(hackathon);
 			break;
 
         case 'game':
-            console.log("inside game")
-            renderProjects(game);
+			console.log("game");
+			renderProjects(game);
             break;
 	}
 

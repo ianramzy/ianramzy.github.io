@@ -1,6 +1,6 @@
 var projectStockNewsAnalysis =
     '<div class="project p-light" id="p-StockNewsAnalysis">' +
-    '<a class="overlay" href="https://ianramzy.github.io/projectPages/StockNewsAnalysis.html" target="_blank">' +
+    '<a class="overlay" href="projectPages/StockNewsAnalysis.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Stock News Analysis</h1>' +
@@ -12,7 +12,7 @@ var projectStockNewsAnalysis =
 
 var projectOptimo =
     '<div class="project p-dark" id="p-Optimo">' +
-    '<a class="overlay" href="https://ianramzy.github.io/projectPages/Optimo.html" target="_blank">' +
+    '<a class="overlay" href="projectPages/Optimo.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Optimo</h1>' +
@@ -24,7 +24,7 @@ var projectOptimo =
 
 var projectTickeriQ =
     '<div class="project p-dark" id="p-Ticker-iQ">' +
-    '<a class="overlay" href="https://ianramzy.github.io/projectPages/Ticker-iQ.html" target="_blank">' +
+    '<a class="overlay" href="projectPages/Ticker-iQ.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Ticker-iQ</h1>' +
@@ -36,7 +36,7 @@ var projectTickeriQ =
 
 var projectBubblesortDemonstration =
     '<div class="project p-dark" id="p-BubblesortDemonstration">' +
-    '<a class="overlay" href="https://ianramzy.github.io/projectPages/BubblesortDemonstration.html" target="_blank">' +
+    '<a class="overlay" href="projectPages/BubblesortDemonstration.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Bubblesort Demonstration</h1>' +
@@ -48,7 +48,7 @@ var projectBubblesortDemonstration =
 
 var RecursiveTrees =
     '<div class="project p-light" id="p-RecursiveTrees">' +
-    '<a class="overlay" href="https://ianramzy.github.io/projectPages/RecursiveTrees.html" target="_blank">' +
+    '<a class="overlay" href="projectPages/RecursiveTrees.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Recursive Trees</h1>' +
@@ -60,7 +60,7 @@ var RecursiveTrees =
 
 var projectPixelShooter =
     '<div class="project p-light" id="p-PixelShooter">' +
-    '<a class="overlay" href="https://ianramzy.github.io/projectPages/PixelShooter.html" target="_blank">' +
+    '<a class="overlay" href="projectPages/PixelShooter.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Design &amp; Development</h4>' +
     '<h1>Pixel Shooter</h1>' +
@@ -72,7 +72,7 @@ var projectPixelShooter =
 
 var TronPong =
     '<div class="project p-light" id="p-TronPong">' +
-    '<a class="overlay" href="https://ianramzy.github.io/projectPages/TronPong.html" target="_blank">' +
+    '<a class="overlay" href="projectPages/TronPong.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Tron Pong</h1>' +
@@ -84,7 +84,7 @@ var TronPong =
 
 var ColourMatch =
     '<div class="project p-dark" id="p-ColourMatch">' +
-    '<a class="overlay" href="https://ianramzy.github.io/projectPages/ColourMatch.html" target="_blank">' +
+    '<a class="overlay" href="projectPages/ColourMatch.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Designer &amp; Developer</h4>' +
     '<h1>Colour Match</h1>' +
@@ -96,7 +96,7 @@ var ColourMatch =
 
 var SortingComparison =
     '<div class="project p-light" id="p-SortingComparison">' +
-    '<a class="overlay" href="https://ianramzy.github.io/projectPages/SortingComparison.html" target="_blank">' +
+    '<a class="overlay" href="projectPages/SortingComparison.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Sorting Comparison</h1>' +
@@ -108,7 +108,7 @@ var SortingComparison =
 
 var TestProject =
     '<div class="project p-light" id="p-TestProject">' +
-    '<a class="overlay" href="https://ianramzy.github.io/projectPages/projectname.html" target="_blank">' +
+    '<a class="overlay" href="projectPages/projectname.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Design &amp; Development</h4>' +
     '<h1>projectname</h1>' +
@@ -120,7 +120,7 @@ var TestProject =
 
 var KochCurve =
     '<div class="project p-light" id="p-KochCurve">' +
-    '<a class="overlay" href="https://ianramzy.github.io/projectPages/KochCurve.html" target="_blank">' +
+    '<a class="overlay" href="projectPages/KochCurve.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Koch Curve</h1>' +
@@ -148,16 +148,16 @@ var all = [
 
 ];
 
-// var design = [
-//     projectTickeriQ
-// ];
+var design = [
+    projectTickeriQ
+];
 
-// var dev = [
-//     projectPixelShooter,
-//     SortingComparison,
-//     KochCurve
-//
-// ];
+var dev = [
+    projectPixelShooter,
+    SortingComparison,
+    KochCurve
+
+];
 
 var hackathon = [
     projectStockNewsAnalysis,

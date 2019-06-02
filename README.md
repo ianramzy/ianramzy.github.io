@@ -1,1 +1,1 @@
-My personal website: https://ianramzy.github.io/
+My personal website: https://ianramzy.com

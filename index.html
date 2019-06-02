@@ -1,3 +1,4 @@
+<!--stop reading my html-->
 <!doctype html>
 <html class="no-js" lang="">
 <head>
@@ -30,7 +31,7 @@
     <meta property="og:title" content="Ian Ramzy"/>
     <!--<meta property="og:description"-->
           <!--content="I'm a software engineer based in Waterloo. I love designing and developing exciting projects. I spend most of my time with people I love, learning, or hustling to launch my next project."/>-->
-    <meta property="og:url" content="ianramzy.github.io"/>
+    <meta property="og:url" content="ianramzy.com"/>
     <meta property="og:image" content="res/preview.png"/>
     <link rel="stylesheet" href="main.css">
     <!-- Typekit -->
@@ -97,16 +98,23 @@
     <div class="container">
         <ul class="filter">
             <li class="active" id="filter-all" onclick="loadProjects('all')">All</li>
-            <!--<li id="filter-design" onclick="loadProjects('design')">Design</li>-->
-            <!--<li id="filter-dev" onclick="loadProjects('dev')">Dev</li>-->
+            <li id="filter-design" onclick="loadProjects('design')">Design</li>
+            <li id="filter-dev" onclick="loadProjects('dev')">Dev</li>
             <li id="filter-hackathon" onclick="loadProjects('hackathon')">Hackathon</li>
             <li id="filter-game" onclick="loadProjects('game')">Game</li>
+            <!--frontend-->
+            <!--datascience-->
+            <!--game-->
+            <!--experience-->
+            <!--no more all-->
+            <!--featured-->
+
         </ul>
 
         <div class="js-project--container">
 
             <div class="project p-light" id="p-StockNewsAnalysis">
-                <a class="overlay" href="https://ianramzy.github.io/projectPages/StockNewsAnalysis.html"
+                <a class="overlay" href="projectPages/StockNewsAnalysis.html"
                    target="_blank">
                     <div class="content vertical-center">
                         <h4>Developer</h4>
@@ -119,7 +127,7 @@
             </div>
 
             <div class="project p-dark" id="p-Optimo">
-                <a class="overlay" href="https://ianramzy.github.io/projectPages/Optimo.html" target="_blank">
+                <a class="overlay" href="projectPages/Optimo.html" target="_blank">
                     <div class="content vertical-center">
                         <h4>Developer</h4>
                         <h1>Optimo</h1>
@@ -131,7 +139,7 @@
             </div>
 
             <div class="project p-dark" id="p-Ticker-iQ">
-                <a class="overlay" href="https://ianramzy.github.io/projectPages/Ticker-iQ.html" target="_blank">
+                <a class="overlay" href="projectPages/Ticker-iQ.html" target="_blank">
                     <div class="content vertical-center">
                         <h4>Developer</h4>
                         <h1>Ticker-iQ</h1>
@@ -143,7 +151,7 @@
             </div>
 
             <div class="project p-light" id="p-RecursiveTrees">
-                <a class="overlay" href="https://ianramzy.github.io/projectPages/RecursiveTrees.html" target="_blank">
+                <a class="overlay" href="projectPages/RecursiveTrees.html" target="_blank">
                     <div class="content vertical-center">
                         <h4>Developer</h4>
                         <h1>Recursive Trees</h1>
@@ -154,7 +162,7 @@
             </div>
 
             <div class="project p-dark" id="p-BubblesortDemonstration">
-                <a class="overlay" href="https://ianramzy.github.io/projectPages/BubblesortDemonstration.html"
+                <a class="overlay" href="projectPages/BubblesortDemonstration.html"
                    target="_blank">
                     <div class="content vertical-center">
                         <h4>Developer</h4>
@@ -182,9 +190,9 @@
 
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="js/sidr.js"></script>
+<script src="js/projects.js"></script>
 <script src="js/main.js"></script>
 <script src="js/menu.js"></script>
-<script src="js/projects.js"></script>
 <script>setTimeout(function () {
     $('.load').css('display', 'none');
 }, 3000);
@@ -192,5 +200,3 @@
 </body>
 </html>
 <!--add personality to about-->
-
-<!--https://codepen.io/alticreation/pen/ZYdopE-->
