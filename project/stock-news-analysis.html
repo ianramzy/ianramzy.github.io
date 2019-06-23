@@ -1,0 +1,129 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133286804-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-133286804-1');
+    </script>
+    <title>Stock News Analysis - Ian Ramzy</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../res/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../res/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../res/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../res/favicon/site.webmanifest">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Ian Ramzy"/>
+    <meta property="og:description" content="Hi I'm Ian I'm a software engineer and this is my website, check it out!"/>
+    <meta property="og:url" content="ianramzy.com"/>
+    <meta property="og:image" content="res/preview.png"/>
+    <link rel="stylesheet" href="../main.css">
+    <!-- Typekit -->
+    <script src="https://use.typekit.net/cxa4izu.js"></script>
+    <script>try {
+        Typekit.load({async: true});
+    } catch (e) {
+    }
+    </script>
+</head>
+<body>
+<div class="load"></div>
+
+
+<section class="intro" id="intro">
+    <div class="container vertical-center">
+        <h1><span>Project</span></h1>
+        <h1><span>Stock News Analysis</span><span></span><span></span></h1>
+    </div>
+</section>
+
+
+<section class="about" id="about">
+    <header>
+        <h2 class="header" id="header-about">About</h2>
+    </header>
+    <div class="container">
+        <div class="content vertical-center" id="project-content">
+
+
+            <h2>Summary</h2>
+            <p>Web app built with Flask that given a stock ticker will scrape dozens of articles off of Nasdaq.com and
+            run them through a machine learning model for analysis.</p>
+
+
+
+
+            <div class="slideshow-container">
+                <div class="mySlides"><img src="../res/projects/StockNewsAnalysis/StockNewsAnalysis1.png"></div>
+                <div class="mySlides"><img src="../res/projects/StockNewsAnalysis/StockNewsAnalysis2.png"></div>
+                <div class="mySlides"><img src="../res/projects/StockNewsAnalysis/StockNewsAnalysis3.png"></div>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <!--<span class="dot" onclick="currentSlide(4)"></span>-->
+                <!--<span class="dot" onclick="currentSlide(5)"></span>-->
+                <!--<span class="dot" onclick="currentSlide(6)"></span>-->
+            </div>
+
+
+            <h2>Installation & Usage</h2>
+            <a href="https://github.com/ianramzy/stock-news-analysis"><p>Github Repo</p></a>
+            <p><span class="code"># You will need to have Python 3 and Pip installed</span></p>
+            <p><span class="code">$ git clone repourl</span></p>
+            <p><span class="code">$ cd reponame</span></p>
+            <p><span class="code">$ pip install -r requirements.txt</span></p>
+            <p><span class="code">$ python3 app.py</span></p>
+            <p><span class="code"># go to the url that is printed in the console</span></p>
+            <h2>Inspiration</h2>
+            <p>Thousands of methods have been developed to predict stock performance, some taking dozens of parameters
+                and using complicated calculations. However, I realized that the market is ultimately determined by
+                supply and demand, which means the stock is worth as much as the investors value them. I wanted to try a
+                more qualitative approach, using sentimental analysis on stock market news to determine stock
+                performance.</p>
+            <h2>What It Does</h2>
+            <p>Given a stock ticker (i.e. AAPL) it searches NASDAQ.com for related articles and scrapes off all the
+                data. It then cleans the data removing unrelated items (like headers and footers). It then breaks the
+                text into 5000 character chunks and using Azure Text Api it analyzes all the chunks of data. It averages
+                the results and outputs a percentage. I.e. the higher the rating the higher the overall sentiment of
+                news articles, 100% = overwhelmingly positive, 0% = overwhelmingly negative, and 50% = neutral.</p>
+            <h2>Technologies</h2>
+            <p>The back-end is created in Flask, and data scraping is done with beautifulsoup4. Azure Text Api is used
+                to provide analysis.</p>
+            <h2>Challenges</h2>
+            <p><b>Scraping Data: </b>My original plan was to find all of the links on Stock page on NASDAQ.com and then
+                download the data from
+                there, but the problem was that every page would have over 100 links and only 10 of them were the
+                articles I wanted. I had to filter all of the links by discovering a hidden attribute in all of the
+                articles.</p>
+            <p><b>Slow Loading Speeds: </b>The problem was when there were a lot of articles to download, the file sizes
+                could get quite large even
+                if the articles themselves were small (100 articles @ 2mb each = 200mb download). The solution was to
+                parse the HTML using BeautifulSoup4 before the images were loaded. This improved response time by a
+                factor of 10. So now instead of running the algorithm on 10 articles in 10 seconds, 100 articles could
+                be analyzed in the same time.</p>
+            <h2>Future Ideas And Whats Next</h2>
+            <p>In the future I would like to make a new machine learning model to further improve the prediction
+                accuracy. I would implement a Recursive Neural Network based off of Andrej Karpathy's research paper. I
+                would train this model on solely finance related articles and by doing this I believe error could be
+                reduced substantially and the accuracy would be unparalleled.</p>
+
+
+            <a href="https://ianramzy.com"><p>Another project by Ian Ramzy</p></a>
+        </div>
+    </div>
+</section>
+
+<script src="../js/delay.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="../js/gallery.js"></script>
+</body>
+</html>

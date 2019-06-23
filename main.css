@@ -533,6 +533,16 @@ html, body {
     position: relative;
 }
 
+/*for project page text*/
+#project-content{
+    top: 0%;
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+}
+
 @media screen and (max-width: 61.625em) {
     .about {
         height: 60em;
@@ -760,17 +770,17 @@ a {
 }
 
 /*.project {*/
-    /*position: relative;*/
-    /*top: 0em;*/
-    /*width: 44%;*/
-    /*height: 27.5em;*/
-    /*margin: 2.25em 2.25em;*/
-    /*float: left;*/
-    /*padding: 0;*/
-    /*animation-name: fadeInUp;*/
-    /*animation-duration: 1s;*/
-    /*animation-fill-mode: both;*/
-    /*box-shadow: 0 4.375em 7.5em rgba(0, 0, 0, 0.33);*/
+/*position: relative;*/
+/*top: 0em;*/
+/*width: 44%;*/
+/*height: 27.5em;*/
+/*margin: 2.25em 2.25em;*/
+/*float: left;*/
+/*padding: 0;*/
+/*animation-name: fadeInUp;*/
+/*animation-duration: 1s;*/
+/*animation-fill-mode: both;*/
+/*box-shadow: 0 4.375em 7.5em rgba(0, 0, 0, 0.33);*/
 /*}*/
 
 .project {
@@ -1428,3 +1438,43 @@ h2.header {
     left: -50em;
     right: auto;
 }
+
+
+/*for project page*/
+/*<!--for gallery-->*/
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 10px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active-g, .dot:hover {
+    background-color: #717171;
+}
+
+.about .mySlides img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4.375em 7.5em rgba(0, 0, 0, 0.33);
+    transition: ease 2s;
+}
+
+code {
+    padding: 5px;
+    background: white;
+    font-weight: 600;
+    line-height: 1.8;
+}
+.code {
+    padding: 5px;
+    background: white;
+    font-weight: 600;
+    line-height: 1.8;
+}
+/*for project page*/
+
