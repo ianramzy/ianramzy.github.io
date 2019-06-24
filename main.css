@@ -528,7 +528,7 @@ html, body {
 
 .about img {
     width: 21em;
-    height: 26.25em;
+    height: auto;
     float: right;
     position: relative;
 }
@@ -947,53 +947,53 @@ a {
     }
 }
 
-#p-StockNewsAnalysis {
-    background: url("res/projects/StockNewsAnalysis/StockNewsAnalysis0.jpg") no-repeat center center;
+#p-stock-news-analysis {
+    background: url("res/projects/stock-news-analysis/StockNewsAnalysis0.jpg") no-repeat center center;
     background-size: cover;
 }
 
-#p-Optimo {
-    background: url("res/projects/Optimo/Optimo1.gif") no-repeat center center;
+#p-optimo {
+    background: url("res/projects/optimo/Optimo1.gif") no-repeat center center;
     background-size: cover;
 }
 
-#p-Ticker-iQ {
-    background: url("res/projects/Ticker-iQ/Ticker-iQ3.gif") no-repeat center center;
+#p-ticker-iq {
+    background: url("res/projects/ticker-iq/Ticker-iQ3.gif") no-repeat center center;
     background-size: cover;
 }
 
-#p-BubblesortDemonstration {
-    background: url("res/projects/BubblesortDemonstration/BubblesortDemonstration1.gif") no-repeat center center;
+#p-bubblesort-demonstration {
+    background: url("res/projects/bubblesort-demonstration/BubblesortDemonstration1.gif") no-repeat center center;
     background-size: cover;
 }
 
-#p-PixelShooter {
-    background: url("res/projects/PixelShooter/PixelShooter1.png") no-repeat center center;
+#p-pixel-shooter {
+    background: url("res/projects/pixel-shooter/PixelShooter1.png") no-repeat center center;
     background-size: cover;
 }
 
-#p-RecursiveTrees {
-    background: url("res/projects/RecursiveTrees/RecursiveTrees1.gif") no-repeat center center;
+#p-recursive-trees {
+    background: url("res/projects/recursive-trees/RecursiveTrees1.gif") no-repeat center center;
     background-size: cover;
 }
 
-#p-TronPong {
-    background: url("res/projects/TronPong/TronPong1.gif") no-repeat center center;
+#p-tron-pong {
+    background: url("res/projects/tron-pong/TronPong1.gif") no-repeat center center;
     background-size: cover;
 }
 
-#p-ColourMatch {
-    background: url("res/projects/ColourMatch/ColourMatch1.png") no-repeat center center;
+#p-colour-match {
+    background: url("res/projects/colour-match/ColourMatch1.png") no-repeat center center;
     background-size: cover;
 }
 
-#p-SortingComparison {
-    background: url("res/projects/SortingComparison/SortingComparison2.jpg") no-repeat center center;
+#p-sorting-comparison {
+    background: url("res/projects/sorting-comparison/SortingComparison2.jpg") no-repeat center center;
     background-size: cover;
 }
 
-#p-KochCurve {
-    background: url("res/projects/KochCurve/KochCurve4.png") no-repeat center center;
+#p-koch-curve {
+    background: url("res/projects/koch-curve/KochCurve4.png") no-repeat center center;
     background-size: cover;
 }
 
@@ -1446,7 +1446,7 @@ h2.header {
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 10px 2px;
+    margin: 20px 2px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;

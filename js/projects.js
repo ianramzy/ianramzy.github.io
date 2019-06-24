@@ -1,6 +1,6 @@
 var projectStockNewsAnalysis =
-    '<div class="project p-light" id="p-StockNewsAnalysis">' +
-    '<a class="overlay" href="project/StockNewsAnalysis.html" target="_blank">' +
+    '<div class="project p-light" id="p-stock-news-analysis">' +
+    '<a class="overlay" href="project/stock-news-analysis.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Stock News Analysis</h1>' +
@@ -11,11 +11,11 @@ var projectStockNewsAnalysis =
     '</div>';
 
 var projectOptimo =
-    '<div class="project p-dark" id="p-Optimo">' +
-    '<a class="overlay" href="project/Optimo.html" target="_blank">' +
+    '<div class="project p-dark" id="p-optimo">' +
+    '<a class="overlay" href="project/optimo.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
-    '<h1>Optimo</h1>' +
+    '<h1>optimo</h1>' +
     '<p> Web app to help users benchmark their eyesight (i.e. 20/20 or 20/100) by taking on online test</p>' +
     '<button>Explore <span class="arrow"></span></button>' +
     '</div>' +
@@ -23,20 +23,20 @@ var projectOptimo =
     '</div>';
 
 var projectTickeriQ =
-    '<div class="project p-dark" id="p-Ticker-iQ">' +
-    '<a class="overlay" href="project/Ticker-iQ.html" target="_blank">' +
+    '<div class="project p-dark" id="p-ticker-iq">' +
+    '<a class="overlay" href="project/ticker-iq.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
-    '<h1>Ticker-iQ</h1>' +
-    '<p> Ticker-iQ lets users screen stocks, view financial history, key metrics, and manage portfolio assets and holdings all in real time.</p>' +
+    '<h1>ticker-iq</h1>' +
+    '<p> ticker-iq lets users screen stocks, view financial history, key metrics, and manage portfolio assets and holdings all in real time.</p>' +
     '<button>Explore <span class="arrow"></span></button>' +
     '</div>' +
     '</a>' +
     '</div>';
 
 var projectBubblesortDemonstration =
-    '<div class="project p-dark" id="p-BubblesortDemonstration">' +
-    '<a class="overlay" href="project/BubblesortDemonstration.html" target="_blank">' +
+    '<div class="project p-dark" id="p-bubblesort-demonstration">' +
+    '<a class="overlay" href="project/bubblesort-demonstration.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Bubblesort Demonstration</h1>' +
@@ -47,8 +47,8 @@ var projectBubblesortDemonstration =
     '</div>';
 
 var RecursiveTrees =
-    '<div class="project p-light" id="p-RecursiveTrees">' +
-    '<a class="overlay" href="project/RecursiveTrees.html" target="_blank">' +
+    '<div class="project p-light" id="p-recursive-trees">' +
+    '<a class="overlay" href="project/recursive-trees.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Recursive Trees</h1>' +
@@ -59,8 +59,8 @@ var RecursiveTrees =
     '</div>';
 
 var projectPixelShooter =
-    '<div class="project p-light" id="p-PixelShooter">' +
-    '<a class="overlay" href="project/PixelShooter.html" target="_blank">' +
+    '<div class="project p-light" id="p-pixel-shooter">' +
+    '<a class="overlay" href="project/pixel-shooter.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Design &amp; Development</h4>' +
     '<h1>Pixel Shooter</h1>' +
@@ -71,8 +71,8 @@ var projectPixelShooter =
     '</div>';
 
 var TronPong =
-    '<div class="project p-light" id="p-TronPong">' +
-    '<a class="overlay" href="project/TronPong.html" target="_blank">' +
+    '<div class="project p-light" id="p-tron-pong">' +
+    '<a class="overlay" href="project/tron-pong.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Tron Pong</h1>' +
@@ -83,8 +83,8 @@ var TronPong =
     '</div>';
 
 var ColourMatch =
-    '<div class="project p-dark" id="p-ColourMatch">' +
-    '<a class="overlay" href="project/ColourMatch.html" target="_blank">' +
+    '<div class="project p-dark" id="p-colour-match">' +
+    '<a class="overlay" href="project/colour-match.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Designer &amp; Developer</h4>' +
     '<h1>Colour Match</h1>' +
@@ -95,8 +95,8 @@ var ColourMatch =
     '</div>';
 
 var SortingComparison =
-    '<div class="project p-light" id="p-SortingComparison">' +
-    '<a class="overlay" href="project/SortingComparison.html" target="_blank">' +
+    '<div class="project p-light" id="p-sorting-comparison">' +
+    '<a class="overlay" href="project/sorting-comparison.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Sorting Comparison</h1>' +
@@ -119,8 +119,8 @@ var TestProject =
     '</div>';
 
 var KochCurve =
-    '<div class="project p-light" id="p-KochCurve">' +
-    '<a class="overlay" href="project/KochCurve.html" target="_blank">' +
+    '<div class="project p-light" id="p-koch-curve">' +
+    '<a class="overlay" href="project/koch-curve.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Koch Curve</h1>' +

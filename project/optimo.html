@@ -1,0 +1,136 @@
+<!--Optimo-->
+<!--optimo-->
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133286804-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-133286804-1');
+    </script>
+    <title>Optimo - Ian Ramzy</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../res/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../res/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../res/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../res/favicon/site.webmanifest">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Ian Ramzy"/>
+    <meta property="og:description" content="Hi I'm Ian I'm a software engineer and this is my website, check it out!"/>
+    <meta property="og:url" content="ianramzy.com"/>
+    <meta property="og:image" content="res/preview.png"/>
+    <link rel="stylesheet" href="../main.css">
+    <!-- Typekit -->
+    <script src="https://use.typekit.net/cxa4izu.js"></script>
+    <script>try {
+        Typekit.load({async: true});
+    } catch (e) {
+    }
+    </script>
+</head>
+<body>
+<div class="load"></div>
+
+
+<section class="intro" id="intro">
+    <div class="container vertical-center">
+        <h1><span>Project</span></h1>
+        <h1><span>Optimo</span><span></span><span></span></h1>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <header>
+        <h2 class="header" id="header-about">About</h2>
+    </header>
+    <div class="container">
+        <div class="content vertical-center" id="project-content">
+
+
+            <h2>Summary</h2>
+            <p>Web app to help users benchmark their eyesight (i.e. 20/20 or 20/100) by taking on online test, no doctor
+                required!</p>
+
+
+            <div class="slideshow-container">
+                <div class="mySlides"><img src="../res/projects/optimo/Optimo1.gif"></div>
+                <div class="mySlides"><img src="../res/projects/optimo/Optimo1.png"></div>
+                <div class="mySlides"><img src="../res/projects/optimo/Optimo2.png"></div>
+                <div class="mySlides"><img src="../res/projects/optimo/Optimo3.png"></div>
+                <div class="mySlides"><img src="../res/projects/optimo/Optimo4.png"></div>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+
+
+            <h2>Installation & Usage</h2>
+            <a href="https://github.com/ianramzy/optimo"><p>Github Repo</p></a>
+            <a href="https://ianramzy.com/optimo/" target="_blank"><p>Try it out here on chrome!</p></a>
+            <h2>Inspiration</h2>
+            <p>After being fed up with the inconvenience of going to the optometrist (and having to pay $110) to test my
+                eyesight, I wanted a quicker and more convenient way to asses and continually monitor my eyesight. I
+                didn't
+                want to replace my annual trip to the optometrist, I just didn't want to have to pay to see if my
+                eyesight
+                has changed. In one year your eyesight can change a lot, for instance my prescription doubled in 2018.
+                The last
+                few months before you get your new glasses can sometimes be very frustrating, as you're in this limbo of
+                not
+                being able to see and you can't get a new pair of glasses. Optimo was created as a way to asses and see
+                how
+                your eyes are progressing.</p>
+            <h2>What It Does</h2>
+            <p>Users stand 10ft away from their computer and simply read out the letters on screen until the application
+                has enough information to calculate their eyesight. I base calculations off of the research on the
+                Snellen
+                standard.</p>
+            <h2>Technologies</h2>
+            <p>This web app runs completely in browser (a goal because I wanted anyone be able to use it) so all code is
+                in
+                native HTML/CSS/JS, the only library used was the WebKit Api for voice recognition and processing user
+                input.</p>
+            <h2>Challenges</h2>
+            <p><b>Voice recognition: </b>There are a lot of voice recognition technologies out there, but out of the
+                dozen I tried, most of them
+                were too slow to be practical for real world use. Even the fastest implementation I tested still
+                requires
+                the user to wait a few seconds between reading out letters. And worse yet, it sacrifices accuracy for
+                speed, so in loud environments it can throw off the application's calculations.</p>
+            <p><b>Dynamic display sizes: </b>Every display is different and I needed a way to standardize the size of
+                all of the text on screen so I
+                could ensure the test remained accurate. The complicating part was that the size of the next few words
+                shown on screen is calculated based off of your results from the previous words so it makes things a bit
+                more challenging.</p>
+            <h2>Future Ideas And Whats Next</h2>
+            <p>In the future I would like to make a better implementation of the voice recognition as sometimes it
+                struggles
+                with accuracy. At the hackathon where this project was demo'ed I had a physician approach me after and
+                we
+                started talking about the idea of licensing this software to medical professionals. Obviously this
+                program
+                would need extensive testing and clinical trials to prove its accuracy but it would definitely be cool
+                if
+                this was a commercial product some day!</p>
+
+            <a href="https://ianramzy.com"><p>Another project by Ian Ramzy</p></a>
+        </div>
+    </div>
+</section>
+
+<script src="../js/delay.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="../js/gallery.js"></script>
+</body>
+</html>
