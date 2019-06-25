@@ -106,18 +106,6 @@ var SortingComparison =
     '</a>' +
     '</div>';
 
-var TestProject =
-    '<div class="project p-light" id="p-TestProject">' +
-    '<a class="overlay" href="project/projectname.html" target="_blank">' +
-    '<div class="content vertical-center">' +
-    '<h4>Design &amp; Development</h4>' +
-    '<h1>projectname</h1>' +
-    '<p>projectsummary</p>' +
-    '<button>Explore <span class="arrow"></span></button>' +
-    '</div>' +
-    '</a>' +
-    '</div>';
-
 var KochCurve =
     '<div class="project p-light" id="p-koch-curve">' +
     '<a class="overlay" href="project/koch-curve.html" target="_blank">' +
@@ -130,11 +118,23 @@ var KochCurve =
     '</a>' +
     '</div>';
 
+var projectArticleSummaryDeepLearning =
+    '<div class="project p-dark" id="p-article-summary-deep-learning">' +
+    '<a class="overlay" href="project/article-summary-deep-learning.html" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Article Summary Deep Learning</h1>' +
+    '<p>Using deep learning and scraping to analyze/summarize articles! Just drop in any URL!</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
 
 var featured = [  //order when clicked on matters
     projectStockNewsAnalysis,
-    projectOptimo,
     projectTickeriQ,
+    projectOptimo,
     RecursiveTrees,
     projectBubblesortDemonstration,
 ];
@@ -148,20 +148,19 @@ var all = [
 
 ];
 
-var design = [
-    projectTickeriQ
-];
-
-var dev = [
-    projectPixelShooter,
-    SortingComparison,
-    KochCurve
-
-];
-
-var hackathon = [
+var frontend = [
     projectStockNewsAnalysis,
-    projectOptimo
+    projectTickeriQ,
+    projectOptimo,
+    RecursiveTrees,
+    ColourMatch,
+];
+
+var datascience = [
+    projectStockNewsAnalysis,
+    projectArticleSummaryDeepLearning,
+
+
 ];
 
 var game = [
@@ -169,3 +168,9 @@ var game = [
     ColourMatch,
     TronPong
 ];
+
+// var hackathon = [
+//     projectStockNewsAnalysis,
+//     projectOptimo
+// ];
+

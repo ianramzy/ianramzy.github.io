@@ -55,20 +55,27 @@
 
 
             <h2>Summary</h2>
-            <p>Summary Summary Summary Summary Summary Summary Summary Summary Summary Summary Summary Summary Summary
-                Summary Summary Summary Summary Summary Summary Summary Summary Summary Summary Summary Summary </p>
+            <p>Using deep learning and scraping to analyze/summarize articles! Just drop in any URL!</p>
 
 
             <div class="slideshow-container">
-                <div class="mySlides"><img src="../res/projects/article-summary-deep-learning/article-summary-deep-learning1.png"></div>
+                <div class="mySlides"><img
+                        src="../res/projects/article-summary-deep-learning/article-summary-deep-learning1.png"></div>
+                <div class="mySlides"><img
+                        src="../res/projects/article-summary-deep-learning/article-summary-deep-learning2.png"></div>
+                <div class="mySlides"><img
+                        src="../res/projects/article-summary-deep-learning/article-summary-deep-learning3.png"></div>
+                <div class="mySlides"><img
+                        src="../res/projects/article-summary-deep-learning/article-summary-deep-learning4.png"></div>
+                <div class="mySlides"><img
+                        src="../res/projects/article-summary-deep-learning/article-summary-deep-learning5.png"></div>
             </div>
             <div style="text-align:center">
                 <span class="dot" onclick="currentSlide(1)"></span>
-                <!--<span class="dot" onclick="currentSlide(2)"></span>-->
-                <!--<span class="dot" onclick="currentSlide(3)"></span>-->
-                <!--<span class="dot" onclick="currentSlide(4)"></span>-->
-                <!--<span class="dot" onclick="currentSlide(5)"></span>-->
-                <!--<span class="dot" onclick="currentSlide(6)"></span>-->
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
             </div>
 
 
@@ -82,27 +89,25 @@
             <p><span class="code">$ python3 app.py</span></p>
 
             <h2>Inspiration</h2>
-            <p>Inspiration Inspiration Inspiration Inspiration Inspiration Inspiration Inspiration Inspiration
-                Inspiration Inspiration Inspiration Inspiration Inspiration Inspiration Inspiration Inspiration
-                Inspiration Inspiration Inspiration Inspiration Inspiration Inspiration Inspiration Inspiration
-                Inspiration </p>
+            <p>In a day an age where information is not only abundant but overflowing, I wanted to create a faster way
+                parse all of it. I originally wanted a browser extension that would summarize any page that I was
+                reading in a few bullet points so that I could save time. But I later settled on a web app for more
+                flexibility.</p>
             <h2>What It Does</h2>
-            <p>What It Does What It Does What It Does What It Does What It Does What It Does What It Does What It Does
-                What It Does What It Does What It Does What It Does What It Does What It Does What It Does What It Does
-                What It Does </p>
+            <p>The application takes in a URL and makes request to that page scraping all of the data from
+                it. The data is then cleaned (removing noise) and a name entity recognition is performed where all
+                entities are labeled in the text (that's the cool visualization/highlighted part). It then takes the
+                most
+                common entity in the text and assumes it is the subject of the article and proceeds to extract facts
+                from the text itself and renders the frontend.</p>
             <h2>Technologies</h2>
-            <p>Technologies Technologies Technologies Technologies Technologies Technologies Technologies Technologies
-                Technologies Technologies Technologies Technologies Technologies Technologies Technologies Technologies
-                Technologies Technologies Technologies Technologies Technologies Technologies </p>
-            <h2>Challenges</h2>
-            <p>Challenges Challenges Challenges Challenges Challenges Challenges Challenges Challenges Challenges
-                Challenges Challenges Challenges Challenges Challenges Challenges Challenges Challenges Challenges
-                Challenges Challenges Challenges Challenges Challenges Challenges Challenges </p>
+            <p>The web application is built using flask, and the frontend is pure css and html. For web scraping
+                beautifulsoup4 was used and deep learning was done using Spacy and textacy. Specifically Spacy for named
+                entity recognition (NER) and textacy for sentence structure analysis.</p>
             <h2>Future Ideas And Whats Next</h2>
-            <p>Future Ideas And Whats Next Future Ideas And Whats Next Future Ideas And Whats Next Future Ideas And
-                Whats Next Future Ideas And Whats Next Future Ideas And Whats Next Future Ideas And Whats Next Future
-                Ideas And Whats Next Future Ideas And Whats Next Future Ideas And Whats Next Future Ideas And Whats
-                Next </p>
+            <p>I would like to gather more data for training the models. And I would also like to add a feature where
+                the algorithm will look for more sources on the internet about a topic (i.e. Obama) and gather more
+                data to analyse there.</p>
 
             <a href="https://ianramzy.com"><p>Another project by Ian Ramzy</p></a>
         </div>

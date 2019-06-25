@@ -534,7 +534,7 @@ html, body {
 }
 
 /*for project page text*/
-#project-content{
+#project-content {
     top: 0%;
     -webkit-transform: translateY(0%);
     -moz-transform: translateY(0%);
@@ -997,11 +997,10 @@ a {
     background-size: cover;
 }
 
-#p-TestProject {
-    background: url("...") no-repeat center center;
+#p-article-summary-deep-learning {
+    background: url("res/projects/article-summary-deep-learning/article-summary-deep-learning5.png") no-repeat center center;
     background-size: cover;
 }
-
 
 @keyframes fadeInUp {
     from {
@@ -1470,11 +1469,13 @@ code {
     font-weight: 600;
     line-height: 1.8;
 }
+
 .code {
     padding: 5px;
     background: white;
     font-weight: 600;
     line-height: 1.8;
 }
+
 /*for project page*/
 

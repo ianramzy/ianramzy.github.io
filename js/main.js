@@ -16,27 +16,26 @@ function loadProjects(loadTarget) {
 			$('#filter-all').addClass('active');
 			break;
 
-		case 'design':
-			console.log("design");
-
-			renderProjects(design);
+		case 'frontend':
+			console.log("frontend");
+			renderProjects(frontend);
 			break;
 
-		case 'dev':
-			console.log("dev");
-			renderProjects(dev);
+		case 'datascience':
+			console.log("datascience");
+			renderProjects(datascience);
 			break;
 
-		case 'hackathon':
-			console.log("hackathon");
-
-			renderProjects(hackathon);
-			break;
-
-        case 'game':
+		case 'game':
 			console.log("game");
 			renderProjects(game);
-            break;
+			break;
+
+		// case 'hackathon':
+		// 	console.log("hackathon");
+		//
+		// 	renderProjects(hackathon);
+		// 	break;
 	}
 
 	if (isLoaded) {
