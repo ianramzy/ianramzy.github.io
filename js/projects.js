@@ -152,6 +152,7 @@ var frontend = [
     projectStockNewsAnalysis,
     projectTickeriQ,
     projectOptimo,
+    projectArticleSummaryDeepLearning,
     RecursiveTrees,
     ColourMatch,
 ];
@@ -168,9 +169,3 @@ var game = [
     ColourMatch,
     TronPong
 ];
-
-// var hackathon = [
-//     projectStockNewsAnalysis,
-//     projectOptimo
-// ];
-
