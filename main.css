@@ -527,7 +527,7 @@ html, body {
 }
 
 .about img {
-    width: 21em;
+    width: 19em;
     height: auto;
     float: right;
     position: relative;
@@ -1083,6 +1083,47 @@ a {
     z-index: 60;
     animation-delay: 1800ms;
 }
+
+
+.subscribe {
+    margin: 11.25em 0 5em 0;
+    padding: 7.5em 0;
+    text-align: center;
+    background: #262626;
+    color: #FFFFFF;
+    box-shadow: 0 2.5em 4.375em rgba(0, 0, 0, 0.33); }
+.subscribe h2 {
+    margin-bottom: 0.25em;
+    font-size: 2.25em;
+    letter-spacing: 0.25em;
+    line-height: 1.33; }
+@media screen and (max-width: 61.625em) {
+    .subscribe h2 {
+        margin-bottom: 0.75em; } }
+.subscribe h4,
+.subscribe h5 {
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    /*opacity: 0.66; */
+}
+.subscribe #mce-responses {
+    margin: 1.125em auto;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.05em; }
+.subscribe #mce-responses #mce-error-response {
+    color: #e74c3c; }
+.subscribe #mce-responses #mce-success-response {
+    color: #2ecc71; }
+.subscribe #mce-responses a {
+    display: none; }
+@media screen and (max-width: 61.625em) {
+    .subscribe {
+        padding: 7.5em 3.5em; } }
+
+
+
 
 button {
     width: 14.0625em;
