@@ -130,6 +130,102 @@ var projectArticleSummaryDeepLearning =
     '</a>' +
     '</div>';
 
+var projectColourGame =
+    '<div class="project p-light" id="p-colour-game">' +
+    '<a class="overlay" href="color-game" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Color Game</h1>' +
+    '<p>Test you RGB matching skills in this interactive web game!</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
+var projectBeatVisualizer =
+    '<div class="project p-dark" id="p-beat-visualizer">' +
+    '<a class="overlay" href="beat-visualizer" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Beat Visualizer</h1>' +
+    '<p>Experiment with sounds and visuals to make a simple beat at home, no music skills required!</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
+var projectBeautifulTodo =
+    '<div class="project p-dark" id="p-beautiful-todo">' +
+    '<a class="overlay" href="beautiful-todo" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Beautiful Todo</h1>' +
+    '<p>An overly aesthetic frontend for a todo list</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
+var projectYelpReviewClassifier =
+    '<div class="project p-light" id="p-yelp-review-classifier">' +
+    '<a class="overlay" href="/project/yelp-review-classifier.html" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Yelp Review Classifier</h1>' +
+    '<p>A classifier built with facebook\'s fasttext that will input a reviewers text and predict the\n' +
+    '                corresponding star rating.</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
+var projectAiChatbot =
+    '<div class="project p-light" id="p-ai-chatbot">' +
+    '<a class="overlay" href="/project/ai-chatbot.html" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>AI Chatbot</h1>' +
+    '<p>Meet Alfred, the AI chatbot that learns and answers questions about anything. Just give him a piece of text and watch him learn!</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
+var projectIrisClassifier =
+    '<div class="project p-dark" id="p-iris-classifier">' +
+    '<a class="overlay" href="/project/iris-classifier.html" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Iris Classifier</h1>' +
+    '<p>Exploratory data analysis and classifier of the iris dataset using various ML models.</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
+
+
+
+// projectStockNewsAnalysis
+// projectOptimo
+// projectTickeriQ
+// projectBubblesortDemonstration
+// RecursiveTrees
+// projectPixelShooter
+// TronPong
+// ColourMatch
+// SortingComparison
+// KochCurve
+// projectArticleSummaryDeepLearning
+// projectColourGame
+// projectBeatVisualizer
+// projectBeautifulTodo
+// projectYelpReviewClassifier
+// projectAiChatbot
+// projectIrisClassifier
+
+
+
 
 var featured = [  //order when clicked on matters
     projectStockNewsAnalysis,
@@ -145,10 +241,11 @@ var all = [
     ColourMatch,
     KochCurve,
     TronPong,
-
 ];
 
 var frontend = [
+    projectBeautifulTodo,
+    projectColourGame,
     projectStockNewsAnalysis,
     projectTickeriQ,
     projectOptimo,
@@ -158,14 +255,17 @@ var frontend = [
 ];
 
 var datascience = [
+    projectYelpReviewClassifier,
     projectStockNewsAnalysis,
     projectArticleSummaryDeepLearning,
-
-
+    projectAiChatbot,
+    projectIrisClassifier,
 ];
 
 var game = [
-    projectPixelShooter,
+    projectColourGame,
+    projectBeatVisualizer,
     ColourMatch,
+    projectPixelShooter,
     TronPong
 ];

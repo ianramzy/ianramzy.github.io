@@ -1002,6 +1002,35 @@ a {
     background-size: cover;
 }
 
+#p-colour-game {
+    background: url("res/projects/colour-game/colour-game1.gif") no-repeat center center;
+    background-size: cover;
+}
+
+#p-beat-visualizer {
+    background: url("res/projects/beat-visualizer/beat-visualizer1.gif") no-repeat center center;
+    background-size: cover;
+}
+
+#p-beautiful-todo {
+    background: url("res/projects/beautiful-todo/beautiful-todo1.gif") no-repeat center center;
+    background-size: cover;
+}
+
+#p-yelp-review-classifier {
+    background: url("res/projects/yelp-review-classifier/yelp-review-classifier.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#p-ai-chatbot {
+    background: url("res/projects/ai-chatbot/ai-chatbot1.gif") no-repeat center center;
+    background-size: cover;
+}
+#p-iris-classifier{
+    background: url("res/projects/iris-classifier/iris-classifier1.gif") no-repeat center center;
+    background-size: cover;
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -1517,6 +1546,10 @@ code {
     font-weight: 600;
     line-height: 1.8;
     font-size: 0.8em;
+}
+
+object {
+    box-shadow: 0 4.375em 7.5em rgba(0, 0, 0, 0.33);
 }
 
 /*for project page*/

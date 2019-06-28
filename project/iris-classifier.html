@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133286804-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-133286804-1');
+    </script>
+    <title>Iris Classifier - Ian Ramzy</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../res/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../res/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../res/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../res/favicon/site.webmanifest">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Ian Ramzy"/>
+    <meta property="og:description" content="Hi I'm Ian I'm a software engineer and this is my website, check it out!"/>
+    <meta property="og:url" content="ianramzy.com"/>
+    <meta property="og:image" content="res/preview.png"/>
+    <link rel="stylesheet" href="../main.css">
+    <!-- Typekit -->
+    <script src="https://use.typekit.net/cxa4izu.js"></script>
+    <script>try {
+        Typekit.load({async: true});
+    } catch (e) {
+    }
+    </script>
+</head>
+<body>
+<div class="load"></div>
+
+
+<section class="intro" id="intro">
+    <div class="container vertical-center">
+        <h1><span>Project</span></h1>
+        <h1><span>Iris Classifier</span><span></span><span></span></h1>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <header>
+        <h2 class="header" id="header-about">About</h2>
+    </header>
+    <div class="container">
+        <div class="content vertical-center" id="project-content">
+
+            <h2>Summary</h2>
+            <p>Exploratory data analysis and classifier of the iris dataset using various ML models.</p>
+
+
+            <div class="slideshow-container">
+                <div class="mySlides"><img src="../res/projects/iris-classifier/iris-classifier1.gif">
+                </div>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+            </div>
+            <!--            <h2></h2>-->
+            <object type="text/html" data="../res/projects/iris-classifier/iris-classifier.html"
+                    style="width:100%;height:60vh;margin-bottom: 25px">
+            </object>
+
+            <a href="https://github.com/ianramzy/iris-classifier"><p>Github Repo</p></a>
+
+            <h2>Inspiration</h2>
+            <p>Perhaps one of the most iconic datasets in machine learning, I wanted to explore the set and experiment
+                with various machine learning models. Many have said this is the hello world of data science and in that
+                case, Hello World!</p>
+            <h2>Results</h2>
+            <p>As seen at the end of the notebook I had precision and recall both over 90% for most classes, which I am pleased with. I
+                will continue to tinker and fine tune and see if I can improve my results.</p>
+            <h2>Technologies</h2>
+            <p>All development was done in a python notebook, and I used sklearn for models, matplotlib for
+                visualization and pandas for data formatting.</p>
+            <a href="https://ianramzy.com"><p>Another project by Ian Ramzy</p></a>
+        </div>
+    </div>
+</section>
+
+<script src="../js/delay.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="../js/gallery.js"></script>
+</body>
+</html>
