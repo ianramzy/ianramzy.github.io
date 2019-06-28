@@ -132,7 +132,7 @@ var projectArticleSummaryDeepLearning =
 
 var projectColourGame =
     '<div class="project p-light" id="p-colour-game">' +
-    '<a class="overlay" href="color-game" target="_blank">' +
+    '<a class="overlay" href="colour-game" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Color Game</h1>' +
