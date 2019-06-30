@@ -70,17 +70,17 @@ var projectPixelShooter =
     '</a>' +
     '</div>';
 
-var TronPong =
-    '<div class="project p-light" id="p-tron-pong">' +
-    '<a class="overlay" href="project/tron-pong.html" target="_blank">' +
-    '<div class="content vertical-center">' +
-    '<h4>Developer</h4>' +
-    '<h1>Tron Pong</h1>' +
-    '<p>My personal remake of the popular game pong featuring multiple balls, a terrible AI and way too much neon.</p>' +
-    '<button>Explore <span class="arrow"></span></button>' +
-    '</div>' +
-    '</a>' +
-    '</div>';
+// var TronPong =
+//     '<div class="project p-light" id="p-tron-pong">' +
+//     '<a class="overlay" href="project/tron-pong.html" target="_blank">' +
+//     '<div class="content vertical-center">' +
+//     '<h4>Developer</h4>' +
+//     '<h1>Tron Pong</h1>' +
+//     '<p>My personal remake of the popular game pong featuring multiple balls, a terrible AI and way too much neon.</p>' +
+//     '<button>Explore <span class="arrow"></span></button>' +
+//     '</div>' +
+//     '</a>' +
+//     '</div>';
 
 var ColourMatch =
     '<div class="project p-dark" id="p-colour-match">' +
@@ -106,17 +106,17 @@ var SortingComparison =
     '</a>' +
     '</div>';
 
-var KochCurve =
-    '<div class="project p-light" id="p-koch-curve">' +
-    '<a class="overlay" href="project/koch-curve.html" target="_blank">' +
-    '<div class="content vertical-center">' +
-    '<h4>Developer</h4>' +
-    '<h1>Koch Curve</h1>' +
-    '<p>BlueJ applet that renders the famous Koch Curve to a user specified iteration.</p>' +
-    '<button>Explore <span class="arrow"></span></button>' +
-    '</div>' +
-    '</a>' +
-    '</div>';
+// var KochCurve =
+//     '<div class="project p-light" id="p-koch-curve">' +
+//     '<a class="overlay" href="project/koch-curve.html" target="_blank">' +
+//     '<div class="content vertical-center">' +
+//     '<h4>Developer</h4>' +
+//     '<h1>Koch Curve</h1>' +
+//     '<p>BlueJ applet that renders the famous Koch Curve to a user specified iteration.</p>' +
+//     '<button>Explore <span class="arrow"></span></button>' +
+//     '</div>' +
+//     '</a>' +
+//     '</div>';
 
 var projectArticleSummaryDeepLearning =
     '<div class="project p-dark" id="p-article-summary-deep-learning">' +
@@ -168,7 +168,7 @@ var projectBeautifulTodo =
 
 var projectYelpReviewClassifier =
     '<div class="project p-light" id="p-yelp-review-classifier">' +
-    '<a class="overlay" href="/project/yelp-review-classifier.html" target="_blank">' +
+    '<a class="overlay" href="project/yelp-review-classifier.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Yelp Review Classifier</h1>' +
@@ -181,7 +181,7 @@ var projectYelpReviewClassifier =
 
 var projectAiChatbot =
     '<div class="project p-light" id="p-ai-chatbot">' +
-    '<a class="overlay" href="/project/ai-chatbot.html" target="_blank">' +
+    '<a class="overlay" href="project/ai-chatbot.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>AI Chatbot</h1>' +
@@ -193,7 +193,7 @@ var projectAiChatbot =
 
 var projectIrisClassifier =
     '<div class="project p-dark" id="p-iris-classifier">' +
-    '<a class="overlay" href="/project/iris-classifier.html" target="_blank">' +
+    '<a class="overlay" href="project/iris-classifier.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Iris Classifier</h1>' +
@@ -203,69 +203,118 @@ var projectIrisClassifier =
     '</a>' +
     '</div>';
 
+var projectApexTowerDefense =
+    '<div class="project p-light" id="p-apex-tower-defense">' +
+    '<a class="overlay" href="project/apex-tower-defense.html" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Apex Tower Defense</h1>' +
+    '<p>Battle waves of enemies in this neon tower defense game!</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
+var projectAsteroids =
+    '<div class="project p-light" id="p-asteroids">' +
+    '<a class="overlay" href="project/asteroids.html" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Asteroids</h1>' +
+    '<p>Blow up all the asteroids before the destroy your ship in this retro game.</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
+var projectSpaceInvaders =
+    '<div class="project p-light" id="p-space-invaders">' +
+    '<a class="overlay" href="project/space-invaders.html" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Space Invaders</h1>' +
+    '<p>Can you fight off the space invaders before they invade your planet?</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
 
 
-
-// projectStockNewsAnalysis
-// projectOptimo
-// projectTickeriQ
-// projectBubblesortDemonstration
-// RecursiveTrees
-// projectPixelShooter
-// TronPong
-// ColourMatch
-// SortingComparison
-// KochCurve
-// projectArticleSummaryDeepLearning
-// projectColourGame
-// projectBeatVisualizer
-// projectBeautifulTodo
-// projectYelpReviewClassifier
-// projectAiChatbot
-// projectIrisClassifier
-
-
+// projectStockNewsAnalysis (back,front)
+// projectOptimo (front)
+// projectTickeriQ (back, front)
+// projectBubblesortDemonstration (backend)
+// RecursiveTrees (back, front)
+// projectPixelShooter (game)
+// ColourMatch (front?????, game)
+// SortingComparison (backend)
+// projectArticleSummaryDeepLearning (back, front)
+// projectColourGame (front, game)
+// projectBeatVisualizer (front, game)
+// projectBeautifulTodo (front)
+// projectYelpReviewClassifier (back)
+// projectAiChatbot (back)
+// projectIrisClassifier (back)
+// projectApexTowerDefense (game)
+// projectAsteroids (game)
+// projectSpaceInvaders (game)
 
 
-var featured = [  //order when clicked on matters
+var featured = [
     projectStockNewsAnalysis,
+    projectArticleSummaryDeepLearning,
     projectTickeriQ,
     projectOptimo,
-    RecursiveTrees,
-    projectBubblesortDemonstration,
+    projectYelpReviewClassifier,
+    projectColourGame,
+    projectAiChatbot,
 ];
 
 var all = [
+    RecursiveTrees,
+    projectBeautifulTodo,
+    projectBeatVisualizer,
+    projectIrisClassifier,
+    projectApexTowerDefense,
+    projectSpaceInvaders,
+    projectAsteroids,
+    projectBubblesortDemonstration,
     projectPixelShooter,
-    SortingComparison,
     ColourMatch,
-    KochCurve,
-    TronPong,
+    SortingComparison,
 ];
 
 var frontend = [
-    projectBeautifulTodo,
-    projectColourGame,
-    projectStockNewsAnalysis,
-    projectTickeriQ,
-    projectOptimo,
     projectArticleSummaryDeepLearning,
+    projectOptimo,
+    projectStockNewsAnalysis,
+    projectBeautifulTodo,
+    projectTickeriQ,
+    projectColourGame,
+    projectBeatVisualizer,
     RecursiveTrees,
     ColourMatch,
 ];
 
 var datascience = [
-    projectYelpReviewClassifier,
     projectStockNewsAnalysis,
     projectArticleSummaryDeepLearning,
+    projectTickeriQ,
+    projectYelpReviewClassifier,
     projectAiChatbot,
     projectIrisClassifier,
+    RecursiveTrees,
+    SortingComparison,
+    projectBubblesortDemonstration,
+
 ];
 
 var game = [
     projectColourGame,
+    projectApexTowerDefense,
     projectBeatVisualizer,
     ColourMatch,
-    projectPixelShooter,
-    TronPong
+    projectSpaceInvaders,
+    projectAsteroids,
+    projectPixelShooter
 ];

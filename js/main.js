@@ -52,3 +52,6 @@ function renderProjects(projects) {
 function addProjects() {
 	$('.js-project--container').append(all);
 }
+
+//load in all projects for default
+loadProjects('all');

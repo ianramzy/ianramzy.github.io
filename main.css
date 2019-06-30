@@ -1031,6 +1031,21 @@ a {
     background-size: cover;
 }
 
+#p-apex-tower-defense {
+    background: url("res/projects/apex-tower-defense/apex-tower-defense2.gif") no-repeat center center;
+    background-size: cover;
+}
+
+#p-asteroids{
+    background: url("res/projects/asteroids/asteroids1.gif") no-repeat center center;
+    background-size: cover;
+}
+
+#p-space-invaders{
+    background: url("res/projects/space-invaders/space-invaders1.gif") no-repeat center center;
+    background-size: cover;
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
