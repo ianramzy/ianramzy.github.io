@@ -266,11 +266,11 @@ var featured = [
     projectTickeriQ,
     projectOptimo,
     projectYelpReviewClassifier,
-    projectColourGame,
     projectAiChatbot,
 ];
 
 var all = [
+    projectColourGame,
     RecursiveTrees,
     projectBeautifulTodo,
     projectBeatVisualizer,
