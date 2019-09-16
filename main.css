@@ -1046,6 +1046,11 @@ a {
     background-size: cover;
 }
 
+#p-e-motion-smart-journal{
+    background: url("res/projects/e-motion-smart-journal/e-motion-smart-journal2.png") no-repeat center center;
+    background-size: cover;
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;

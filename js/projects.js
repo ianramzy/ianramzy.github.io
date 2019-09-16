@@ -239,6 +239,18 @@ var projectSpaceInvaders =
     '</a>' +
     '</div>';
 
+var eMotionSmartJournal =
+    '<div class="project p-dark" id="p-e-motion-smart-journal">' +
+    '<a class="overlay" href="project/e-motion-smart-journal.html" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>E-motion Smart Journal</h1>' +
+    '<p>Mental health platform powered by journaling and machine learning.</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
 
 // projectStockNewsAnalysis (back,front)
 // projectOptimo (front)
@@ -263,13 +275,14 @@ var projectSpaceInvaders =
 var featured = [
     projectStockNewsAnalysis,
     projectArticleSummaryDeepLearning,
+    eMotionSmartJournal,
     projectTickeriQ,
     projectOptimo,
-    projectYelpReviewClassifier,
-    projectAiChatbot,
 ];
 
 var all = [
+    projectYelpReviewClassifier,
+    projectAiChatbot,
     projectColourGame,
     RecursiveTrees,
     projectBeautifulTodo,

@@ -1,0 +1,113 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133286804-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-133286804-1');
+    </script>
+    <title>E-Motion Smart Journal - Ian Ramzy</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../res/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../res/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../res/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../res/favicon/site.webmanifest">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Ian Ramzy"/>
+    <meta property="og:description" content="Hi I'm Ian I'm a software engineer and this is my website, check it out!"/>
+    <meta property="og:url" content="ianramzy.com"/>
+    <meta property="og:image" content="res/preview.png"/>
+    <link rel="stylesheet" href="../main.css">
+    <!-- Typekit -->
+    <script src="https://use.typekit.net/cxa4izu.js"></script>
+    <script>try {
+        Typekit.load({async: true});
+    } catch (e) {
+    }
+    </script>
+</head>
+<body>
+<div class="load"></div>
+
+
+<section class="intro" id="intro">
+    <div class="container vertical-center">
+        <h1><span>Project</span></h1>
+        <h1><span>EMotion Smart Journal</span><span></span><span></span></h1>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <header>
+        <h2 class="header" id="header-about">About</h2>
+    </header>
+    <div class="container">
+        <div class="content vertical-center" id="project-content">
+
+
+            <h2>Summary</h2>
+            <p>Mental health platform powered by journaling and machine learning.</p>
+
+
+            <div class="slideshow-container">
+                <div class="mySlides"><img src="../res/projects/e-motion-smart-journal/e-motion-smart-journal1.png">
+                </div>
+                <div class="mySlides"><img src="../res/projects/e-motion-smart-journal/e-motion-smart-journal2.png">
+                </div>
+                <div class="mySlides"><img src="../res/projects/e-motion-smart-journal/e-motion-smart-journal3.png">
+                </div>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+
+            <h2>Installation & Usage (Not verified)</h2>
+            <a href="https://github.com/ianramzy/e-motion-smart-journal"><p>Github Repo</p></a>
+            <p><span class="code"># You will need to have Python 3 and Pip installed, aswell as Node 10/12</span></p>
+            <p><span class="code">$ git clone https://github.com/ianramzy/e-motion-smart-journal.git</span></p>
+            <p><span class="code">$ cd e-motion-smart-journal</span></p>
+            <p><span class="code">$ pip3 install -r requirements.txt</span></p>
+            <p><span class="code">$ cd reactapp</span></p>
+            <p><span class="code">$ npm install</span></p>
+            <p><span class="code">$ npm start</span></p>
+            <p><span class="code">$ cd ..</span></p>
+            <p><span class="code">$ python3 app.py</span></p>
+
+            <h2>Inspiration</h2>
+            <p>Mental health is an issue that concerns most individuals and is a topic that is very important to me and
+                I wanted to try and make an impact. I started journaling around a year ago and it has helped me greatly.
+                I also wanted to make a full fledged CRUD app to challenge my developer skills. </p>
+            <h2>What It Does</h2>
+            <p>Users create an account and log into the web app then journal their thoughts and feeling daily. We
+                using machine learning and NLP sentiment analysis to track users mood over time to generate
+                insights.</p>
+            <h2>Technologies</h2>
+            <p>Backend: Python, Flask, Azure, PostgreSQL</p>
+            <p>Frontend: React, JavaScript</p>
+            <h2>Challenges</h2>
+            <p>Setting up proper and secure multi-user authentication was quite challenging and a good learning
+                experience. Also working with the database was a new challenge.</p>
+            <h2>Future Ideas And Whats Next</h2>
+            <p>I would love to refine the frontend and provide more insights to users about their journal entries.
+                As well as moving all the database to the cloud.</p>
+
+            <a href="https://ianramzy.com"><p>Another project by Ian Ramzy</p></a>
+        </div>
+    </div>
+</section>
+
+<script src="../js/delay.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="../js/gallery.js"></script>
+</body>
+</html>
