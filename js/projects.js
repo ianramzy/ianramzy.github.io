@@ -298,6 +298,7 @@ var all = [
 ];
 
 var frontend = [
+    eMotionSmartJournal,
     projectArticleSummaryDeepLearning,
     projectOptimo,
     projectStockNewsAnalysis,
