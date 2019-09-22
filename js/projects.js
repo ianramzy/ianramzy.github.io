@@ -252,25 +252,6 @@ var eMotionSmartJournal =
     '</div>';
 
 
-// projectStockNewsAnalysis (back,front)
-// projectOptimo (front)
-// projectTickeriQ (back, front)
-// projectBubblesortDemonstration (backend)
-// RecursiveTrees (back, front)
-// projectPixelShooter (game)
-// ColourMatch (front?????, game)
-// SortingComparison (backend)
-// projectArticleSummaryDeepLearning (back, front)
-// projectColourGame (front, game)
-// projectBeatVisualizer (front, game)
-// projectBeautifulTodo (front)
-// projectYelpReviewClassifier (back)
-// projectAiChatbot (back)
-// projectIrisClassifier (back)
-// projectApexTowerDefense (game)
-// projectAsteroids (game)
-// projectSpaceInvaders (game)
-
 
 var featured = [
     projectStockNewsAnalysis,
@@ -312,6 +293,7 @@ var frontend = [
 
 var datascience = [
     projectStockNewsAnalysis,
+    eMotionSmartJournal,
     projectArticleSummaryDeepLearning,
     projectTickeriQ,
     projectYelpReviewClassifier,
