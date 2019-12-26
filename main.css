@@ -1050,6 +1050,14 @@ a {
     background: url("res/projects/e-motion-smart-journal/e-motion-smart-journal2.png") no-repeat center center;
     background-size: cover;
 }
+#w-deloitte{
+    background: url("https://i.ytimg.com/vi/2wOOfGP0GKc/maxresdefault.jpg") no-repeat center center;
+    background-size: cover;
+}
+#w-renook{
+    background: url("https://i.ytimg.com/vi/2wOOfGP0GKc/maxresdefault.jpg") no-repeat center center;
+    background-size: cover;
+}
 
 @keyframes fadeInUp {
     from {
