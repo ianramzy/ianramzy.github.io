@@ -255,13 +255,13 @@ var eMotionSmartJournal =
 
 var featured = [
     projectStockNewsAnalysis,
-    projectArticleSummaryDeepLearning,
     eMotionSmartJournal,
     projectTickeriQ,
     projectOptimo,
 ];
 
 var all = [
+    projectArticleSummaryDeepLearning,
     projectYelpReviewClassifier,
     projectAiChatbot,
     projectColourGame,
