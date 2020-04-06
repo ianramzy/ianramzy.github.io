@@ -947,6 +947,10 @@ a {
     }
 }
 
+#p-zipcall {
+    background: url("res/projects/zipcall/zipcall.gif") no-repeat center center;
+    background-size: cover;
+}
 #p-stock-news-analysis {
     background: url("res/projects/stock-news-analysis/StockNewsAnalysis0.jpg") no-repeat center center;
     background-size: cover;
