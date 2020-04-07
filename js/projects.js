@@ -273,7 +273,7 @@ var featured = [
 ];
 
 var all = [
-    projectOptimo,,
+    projectOptimo,
     projectArticleSummaryDeepLearning,
     projectYelpReviewClassifier,
     projectAiChatbot,
@@ -292,6 +292,7 @@ var all = [
 ];
 
 var frontend = [
+    projectZipcall,
     eMotionSmartJournal,
     projectArticleSummaryDeepLearning,
     projectOptimo,
@@ -305,6 +306,7 @@ var frontend = [
 ];
 
 var datascience = [
+    projectZipcall,
     projectStockNewsAnalysis,
     eMotionSmartJournal,
     projectArticleSummaryDeepLearning,
