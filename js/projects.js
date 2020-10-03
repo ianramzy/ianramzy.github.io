@@ -2,7 +2,7 @@ var projectZipcall =
     '<div class="project p-light" id="p-zipcall">' +
     '<a class="overlay" href="https://zipcall.io" target="_blank">' +
     '<div class="content vertical-center">' +
-    '<h4>Developer</h4>' +
+    '<h4>Founder</h4>' +
     '<h1>Zipcall.io <br> Decentralized video calls</h1>' +
     '<p>Peer to peer video calling platform with unmatched video quality and latency.</p>' +
     '<button>Explore <span class="arrow"></span></button>' +
