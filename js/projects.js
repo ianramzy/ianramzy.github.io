@@ -288,7 +288,7 @@ var all = [
     projectBubblesortDemonstration,
     projectPixelShooter,
     ColourMatch,
-    SortingComparison,
+    // SortingComparison,
 ];
 
 var frontend = [
@@ -314,9 +314,9 @@ var datascience = [
     projectYelpReviewClassifier,
     projectAiChatbot,
     projectIrisClassifier,
-    RecursiveTrees,
-    SortingComparison,
     projectBubblesortDemonstration,
+    // SortingComparison,
+    RecursiveTrees,
 
 ];
 
