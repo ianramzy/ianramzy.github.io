@@ -30,12 +30,6 @@ function loadProjects(loadTarget) {
 			console.log("game");
 			renderProjects(game);
 			break;
-
-		// case 'hackathon':
-		// 	console.log("hackathon");
-		//
-		// 	renderProjects(hackathon);
-		// 	break;
 	}
 
 	if (isLoaded) {
