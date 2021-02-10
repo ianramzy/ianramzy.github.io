@@ -1,6 +1,6 @@
 var projectZipcall =
     '<div class="project p-light" id="p-zipcall">' +
-    '<a class="overlay" href="https://zipcall.io" target="_blank">' +
+    '<a class="overlay" href="https://github.com/ianramzy/decentralized-video-chat/tree/4b92b8a538a982bf65219c9cc120f41e0b9145c1" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Founder</h4>' +
     '<h1>Zipcall.io <br> Decentralized video calls</h1>' +
