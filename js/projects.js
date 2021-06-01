@@ -263,6 +263,18 @@ var eMotionSmartJournal =
     '</a>' +
     '</div>';
 
+var spotifyParty =
+    '<div class="project p-dark" id="p-spotify-party">' +
+    '<a class="overlay" href="https://github.com/ianramzy/spotify-party" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Spotify Party</h1>' +
+    '<p>Real time Spotify playlist collaboration! No account needed!</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
 
 
 var featured = [
@@ -273,6 +285,7 @@ var featured = [
 ];
 
 var all = [
+    spotifyParty,
     projectOptimo,
     projectArticleSummaryDeepLearning,
     projectYelpReviewClassifier,
@@ -295,6 +308,7 @@ var frontend = [
     projectZipcall,
     eMotionSmartJournal,
     projectArticleSummaryDeepLearning,
+    spotifyParty,
     projectOptimo,
     projectStockNewsAnalysis,
     projectBeautifulTodo,
@@ -309,6 +323,7 @@ var datascience = [
     projectZipcall,
     projectStockNewsAnalysis,
     eMotionSmartJournal,
+    spotifyParty,
     projectArticleSummaryDeepLearning,
     projectTickeriQ,
     projectYelpReviewClassifier,

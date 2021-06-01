@@ -1080,6 +1080,11 @@ a {
     background-size: cover;
 }
 
+#p-spotify-party {
+    background: url("res/projects/spotify-party/spotify-party1.png") no-repeat center center;
+    background-size: cover;
+}
+
 #w-deloitte {
     background: url("https://i.ytimg.com/vi/2wOOfGP0GKc/maxresdefault.jpg") no-repeat center center;
     background-size: cover;
